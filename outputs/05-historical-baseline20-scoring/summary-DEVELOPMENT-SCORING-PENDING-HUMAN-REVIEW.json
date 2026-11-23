@@ -1,0 +1,26 @@
+{
+  "status": "NO_GO_NOT_ACCEPTED",
+  "rater": "agent_eye",
+  "independent_human": false,
+  "n": 20,
+  "templates": 8,
+  "provisional_no_critical": 17,
+  "provisional_publish_usefulness_ge4": 2,
+  "means": {
+    "product_label_fidelity": 4.4,
+    "photorealism": 2.45,
+    "shadow_contact_realism": 1.8,
+    "material_edges": 3.4,
+    "composition": 2.6,
+    "template_distinctness": 2.95,
+    "publish_ready_usefulness": 1.95
+  },
+  "run_url": "https://www.kaggle.com/code/roopeshranjan47121/renderello-baseline20-persistent-rerun-nov10?scriptVersionId=367836345",
+  "limitations": [
+    "Ratings are subjective development-side inspection, not independent human review.",
+    "Baseline first-try outputs, not v459 generation acceptance.",
+    "20 fixed cases retained, including invalid illustration and missing genuine tiny-text category.",
+    "No specialist comparisons or Magic Hour model/cost validation.",
+    "No definitive product alteration rate: no_critical means no alteration observed at reviewed scale, not all fine print independently verified."
+  ]
+}

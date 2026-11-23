@@ -1,0 +1,3 @@
+# Optional. Install CPU torch/torchvision from the official PyTorch registry first.
+# No weights bundled. This does not change automatic backend selection.
+transparent-background==1.3.4

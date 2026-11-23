@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "deodorant_backlabel",
+    "sha256": "33f0052afe1fc82c0d5f4eefa3e8d4eac8a4dc9ff5ba9b9d4dc3189c089ef032",
+    "width": 500,
+    "height": 667,
+    "native_download": true,
+    "screenshot_crop": false,
+    "limitation": "Native non-square output: aspect differs from the requested square comparison.",
+    "service": "Pixelcut",
+    "tool_url": "https://www.pixelcut.ai/ai-background-generator"
+  },
+  {
+    "source_id": "can1",
+    "sha256": "317dcfe7a2267888ecd67deb4ca20dde45a45743a11751e116b92240152d7864",
+    "width": 800,
+    "height": 680,
+    "native_download": true,
+    "screenshot_crop": false,
+    "limitation": "Native non-square output: aspect differs from the requested square comparison.",
+    "service": "Pixelcut",
+    "tool_url": "https://www.pixelcut.ai/ai-background-generator"
+  },
+  {
+    "source_id": "backpack1",
+    "sha256": "06816c30b60f58ff6b8e8951089010726aacb246c66092ddbe0c3ac3f282e1bb",
+    "width": 624,
+    "height": 432,
+    "native_download": false,
+    "screenshot_crop": true,
+    "limitation": "SCREENSHOT ONLY: UI prompt overlay obscures the lower image. Native export unavailable due free download cap. Do not rate hidden parts or use as native-fidelity proof.",
+    "service": "Pixelcut",
+    "tool_url": "https://www.pixelcut.ai/ai-background-generator"
+  }
+]

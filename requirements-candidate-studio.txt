@@ -1,0 +1,11 @@
+# Exact versions used by the CPU candidate-studio checks,13November2026.
+# Install in a project environment from the official PyPI index.
+numpy==2.2.6
+Pillow==11.3.0
+opencv-python-headless==4.11.0.86
+scipy==1.15.3
+scikit-image==0.25.2
+# Optional closed-form/large-kernel matting. Guided mode needs no PyMatting.
+pymatting==1.1.16
+numba==0.68.1
+llvmlite==0.50.0

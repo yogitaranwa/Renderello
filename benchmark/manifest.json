@@ -1,0 +1,131 @@
+{
+ "comment": "Recovered 21-source licensed pack (Openverse commercial-license; Drive realistic-review-v1.zip/provenance.json). Licenses must be verified at source before publishing results. Not yet the full gate mix (no tiny-text skincare, multi-product, furry edges). Added 1 CC0 rawpixel image (2 others excluded, see candidates_excluded.json) via Openverse 2026-11-09; license per Openverse metadata, re-verify at source page before publishing.",
+ "sources": [
+  {
+   "path": "sources/backpack1.jpg",
+   "label": "backpack1",
+   "license": "CC by 2.0 by albertoziveri | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/92167476@N03/9418654172"
+  },
+  {
+   "path": "sources/backpack2.jpg",
+   "label": "backpack2",
+   "license": "CC by 2.0 by ToastyKen | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/24226200@N00/1466198389"
+  },
+  {
+   "path": "sources/can1.jpg",
+   "label": "can1",
+   "license": "CC by 2.0 by Dusty J | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/55608722@N06/12199880715"
+  },
+  {
+   "path": "sources/can2.jpg",
+   "label": "can2",
+   "license": "CC by 2.0 by Creative Tools | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/33907867@N02/4306184928"
+  },
+  {
+   "path": "sources/facemask.jpg",
+   "label": "facemask",
+   "license": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask"
+  },
+  {
+   "path": "sources/glass1.jpg",
+   "label": "glass1",
+   "license": "CC by-sa 2.0 by Dave Dugdale | https://creativecommons.org/licenses/by-sa/2.0/ | https://www.flickr.com/photos/37387065@N05/5080257300"
+  },
+  {
+   "path": "sources/glass2.jpg",
+   "label": "glass2",
+   "license": "CC by 2.0 by pavlinajane | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/60291025@N05/10841624814"
+  },
+  {
+   "path": "sources/perfume2.jpg",
+   "label": "perfume2",
+   "license": "CC by 2.0 by Naomi King | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/22141297@N06/7796400432"
+  },
+  {
+   "path": "sources/sneaker1.jpg",
+   "label": "sneaker1",
+   "license": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524416/white-sneaker-with-pink-led-lights"
+  },
+  {
+   "path": "sources/sneaker2.jpg",
+   "label": "sneaker2",
+   "license": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524257/white-sneaker-with-pink-led-lights"
+  },
+  {
+   "path": "sources/tshirt1.jpg",
+   "label": "tshirt1",
+   "license": "CC pdm 1.0 by emilylovescoloring | https://creativecommons.org/publicdomain/mark/1.0/ | https://www.flickr.com/photos/203051018@N08/54591299167"
+  },
+  {
+   "path": "sources/tshirt2.jpg",
+   "label": "tshirt2",
+   "license": "CC pdm 1.0 by emilylovescoloring | https://creativecommons.org/publicdomain/mark/1.0/ | https://www.flickr.com/photos/203051018@N08/54592371899"
+  },
+  {
+   "path": "sources/watch1.jpg",
+   "label": "watch1",
+   "license": "CC by 2.0 by gadgetdude | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/49503023809@N01/2418089346"
+  },
+  {
+   "path": "sources/watch2.jpg",
+   "label": "watch2",
+   "license": "CC by-sa 2.0 by France1978 | https://creativecommons.org/licenses/by-sa/2.0/ | https://www.flickr.com/photos/51764518@N02/15757858992"
+  },
+  {
+   "path": "sources/snack1.jpg",
+   "label": "snack1",
+   "license": "CC by 2.0 by Jordanhill School D&T Dept | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/42042252@N02/5559242063"
+  },
+  {
+   "path": "sources/wine1.jpg",
+   "label": "wine1",
+   "license": "CC by 2.0 by aloshbennett | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/13203757@N00/2879471624"
+  },
+  {
+   "path": "sources/wine2.jpg",
+   "label": "wine2",
+   "license": "CC by 2.0 by thebringer | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/81266640@N00/3885797185"
+  },
+  {
+   "path": "sources/lotion1.jpg",
+   "label": "lotion1",
+   "license": "CC by 2.0 by Apotek Hjartat | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/53719740@N05/8706603913"
+  },
+  {
+   "path": "sources/lotion2.jpg",
+   "label": "lotion2",
+   "license": "CC by 2.0 by ERICSON LABORATOIRE | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/85171915@N04/8056127582"
+  },
+  {
+   "path": "sources/shampoo2.jpg",
+   "label": "shampoo2",
+   "license": "CC CC BY-SA 3.0 de  by F. Kesselring, FKuR Willich | https://creativecommons.org/licenses/by-sa/3.0/de/deed.en | https://commons.wikimedia.org/wiki/File:Shampoo_Bottle_made_of_PLA-Blend_Bio-Flex.jpg"
+  },
+  {
+   "path": "sources/skincare_tinytext1.jpg",
+   "label": "amber dropper bottle on white (little legible text; NOT a tiny-text test)",
+   "license": "CC0 1.0 | creator unrecorded on Openverse (rawpixel public-domain collection) | https://www.rawpixel.com/image/11524368/back-side-beard-oil-bottle | https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2JzMjI2LWltYWdlLmpwZw.jpg | rawpixel page 2026-11-09: 'Public Domain, Free for Personal and Business use, View CC0 license', no Editorial tag; underlying original source not independently traced"
+  },
+  {
+   "path": "sources/furry_teddy1.jpg",
+   "label": "furry_teddy1 (fur-edge test: fuzzy teddy bear outdoors)",
+   "license": "CC0 1.0 | creator unrecorded (rawpixel public-domain collection) | owning page shows CC0 link, no Editorial tag found in page HTML 2026-11-09 | https://www.rawpixel.com/image/6017419/photo-image-background-cute-public-domain"
+  },
+  {
+   "path": "sources/plush_boba1.jpg",
+   "label": "plush_boba1 (soft plush with small printed face, fabric texture; on sofa)",
+   "license": "CC0 1.0 by Bigul Malayi | WordPress Photo Directory page states CC0 (verified in page HTML 2026-11-09) | https://wordpress.org/photos/photo/25269fcc28/ | downscaled to 1280px"
+  },
+  {
+   "path": "sources/multiproduct_barber1.jpg",
+   "label": "multiproduct_barber1 (many small products on countertop: scissors, combs, clippers, bottles with small label text, mirror reflections)",
+   "license": "CC0 1.0 | WordPress Photo Directory page states CC0 (verified in page HTML 2026-11-09) | https://wordpress.org/photos/photo/27966437d7/ | downscaled to 1600px"
+  }
+ ],
+ "templates": "all",
+ "routes": [
+  "cutout_compose",
+  "hybrid"
+ ],
+ "variants": 2
+}

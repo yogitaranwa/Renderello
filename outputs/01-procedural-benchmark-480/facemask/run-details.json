@@ -1,0 +1,843 @@
+[
+  {
+    "template": {
+      "key": "clean_studio",
+      "name": "Clean Studio / White Background",
+      "category": "catalog",
+      "scene": "seamless white studio backdrop, product centered on an invisible surface",
+      "lighting": "large soft key light front-left, fill card right, even shadowless wrap, 5500K neutral",
+      "camera": "85mm product lens, eye-level, product occupying 70% of frame height",
+      "mood": "clinical, honest, marketplace-ready",
+      "aspect": "1:1",
+      "background_hint": "neutral white to very light gray vertical gradient",
+      "shadow": "soft faint contact shadow directly beneath product"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "clean_studio__seed-1__PROCEDURAL.png",
+        "seconds": 0.44,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "clean_studio__seed-2__PROCEDURAL.png",
+        "seconds": 0.17,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "editorial_beauty",
+      "name": "Editorial Beauty / Skincare",
+      "category": "beauty",
+      "scene": "matte pastel stone pedestal, soft beige studio, one out-of-focus botanical sprig far behind",
+      "lighting": "diffused north-window softbox left, gentle top fill, 5000K, airy highlights",
+      "camera": "70mm, three-quarter angle at product height, generous negative space above",
+      "mood": "clean, editorial, calm skincare aesthetic",
+      "aspect": "4:5",
+      "background_hint": "soft beige-pink seamless with gentle vignette",
+      "shadow": "long soft shadow falling right, low contrast"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "editorial_beauty__seed-1__PROCEDURAL.png",
+        "seconds": 0.33,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "editorial_beauty__seed-2__PROCEDURAL.png",
+        "seconds": 0.31,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "flat_lay",
+      "name": "Flat Lay / Top-Down",
+      "category": "catalog",
+      "scene": "textured linen or paper surface viewed directly from above, minimal side props at corners",
+      "lighting": "large overhead diffused source, perfectly even, no directional bias, 5500K",
+      "camera": "top-down 90 degrees, product centered with even margins",
+      "mood": "tidy, graphic, editorial catalog",
+      "aspect": "1:1",
+      "background_hint": "uniform light textile texture",
+      "shadow": "very soft ambient occlusion ring only"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Requested overhead template requires camera review; unknown source pose does not establish compatibility.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "flat_lay__seed-1__PROCEDURAL.png",
+        "seconds": 0.37,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "flat_lay__seed-2__PROCEDURAL.png",
+        "seconds": 0.43,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "lifestyle_kitchen",
+      "name": "Lifestyle Kitchen",
+      "category": "lifestyle",
+      "scene": "light oak countertop, blurred bright kitchen interior behind, morning atmosphere",
+      "lighting": "warm window light from rear-left, white bounce card front, 4800K",
+      "camera": "50mm at counter height, shallow depth of field, background bokeh",
+      "mood": "warm, lived-in, appetizing",
+      "aspect": "3:2",
+      "background_hint": "warm cream tones, soft horizontal counter line, bokeh circles top third",
+      "shadow": "natural directional shadow to the right, diffused edge"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "lifestyle_kitchen__seed-1__PROCEDURAL.png",
+        "seconds": 0.24,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "lifestyle_kitchen__seed-2__PROCEDURAL.png",
+        "seconds": 0.25,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "luxury_hero",
+      "name": "Luxury Hero",
+      "category": "hero",
+      "scene": "polished black stone slab, dark charcoal void background, subtle rim glow",
+      "lighting": "single dramatic strip softbox from above-behind, warm 4300K accent kicker, deep controlled falloff",
+      "camera": "100mm macro product lens, slightly low hero angle, tight premium crop",
+      "mood": "premium, aspirational, high-contrast",
+      "aspect": "4:5",
+      "background_hint": "near-black gradient with faint warm rim halo behind product",
+      "shadow": "crisp short contact shadow, slight reflection on slab"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "luxury_hero__seed-1__PROCEDURAL.png",
+        "seconds": 0.27,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "luxury_hero__seed-2__PROCEDURAL.png",
+        "seconds": 0.27,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "minimal_tabletop",
+      "name": "Minimalist Tabletop",
+      "category": "catalog",
+      "scene": "single matte neutral podium on a plain light-gray sweep, no props",
+      "lighting": "one large overhead softbox, minimal fill, 5200K, sculpted but simple",
+      "camera": "85mm, straight-on at product center, symmetrical framing",
+      "mood": "minimal, architectural, quiet",
+      "aspect": "1:1",
+      "background_hint": "uniform light gray, very subtle floor-wall seam low in frame",
+      "shadow": "single soft ellipse under podium edge"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "minimal_tabletop__seed-1__PROCEDURAL.png",
+        "seconds": 0.29,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "minimal_tabletop__seed-2__PROCEDURAL.png",
+        "seconds": 0.28,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "natural_outdoor",
+      "name": "Natural Outdoor",
+      "category": "lifestyle",
+      "scene": "weathered stone or wood surface outdoors, softly blurred green foliage background",
+      "lighting": "open-shade daylight with dappled sun accents, 5600K, gentle sky fill",
+      "camera": "60mm at surface level, low horizon, background defocused",
+      "mood": "fresh, organic, eco",
+      "aspect": "3:2",
+      "background_hint": "muted green wash with soft dappled light patches",
+      "shadow": "soft dappled shadow consistent with foliage light"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "natural_outdoor__seed-1__PROCEDURAL.png",
+        "seconds": 0.22,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "natural_outdoor__seed-2__PROCEDURAL.png",
+        "seconds": 0.22,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "reflective_surface",
+      "name": "Reflective Surface / Mirror",
+      "category": "hero",
+      "scene": "glossy reflective black acrylic surface, dark gradient studio behind",
+      "lighting": "two strip softboxes left/right for symmetric edge highlights, 5000K",
+      "camera": "90mm at surface level, product with clear mirror reflection below",
+      "mood": "sleek, tech, polished",
+      "aspect": "1:1",
+      "background_hint": "dark neutral gradient, no visible horizon",
+      "shadow": "reflection fades with distance, minimal ambient shadow"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "reflective_surface__seed-1__PROCEDURAL.png",
+        "seconds": 0.38,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "reflective_surface__seed-2__PROCEDURAL.png",
+        "seconds": 0.37,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "seasonal_holiday",
+      "name": "Seasonal / Holiday",
+      "category": "campaign",
+      "scene": "festive tabletop with restrained seasonal accents (pine sprig, warm bokeh lights far behind)",
+      "lighting": "warm tungsten key 3800K with cool rim separation, gentle sparkle highlights",
+      "camera": "70mm, slightly elevated 15 degrees, product hero with accents at frame edges only",
+      "mood": "festive but premium, never cluttered",
+      "aspect": "1:1",
+      "background_hint": "deep warm amber gradient with distant gold bokeh",
+      "shadow": "warm soft shadow, subtle festive glow at base"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "seasonal_holiday__seed-1__PROCEDURAL.png",
+        "seconds": 0.36,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "seasonal_holiday__seed-2__PROCEDURAL.png",
+        "seconds": 0.31,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  },
+  {
+    "template": {
+      "key": "social_ad",
+      "name": "Social Ad",
+      "category": "campaign",
+      "scene": "bold single-color backdrop with graphic diagonal light band, product floating slightly above surface",
+      "lighting": "hard directional key for a defined graphic shadow, colored gel accent from rear, high contrast",
+      "camera": "50mm, dynamic slight tilt, product upper-center leaving copy space bottom-left",
+      "mood": "energetic, thumb-stopping, modern ad",
+      "aspect": "4:5",
+      "background_hint": "saturated solid color with diagonal lighter band",
+      "shadow": "hard-edged graphic drop shadow offset down-right"
+    },
+    "source_provenance": {
+      "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+      "label": "facemask",
+      "classification": "External product image (photographic appearance; capture origin not independently verified)",
+      "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+      "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+      "match_basis": "exact_file_sha256",
+      "capture_origin": "UNVERIFIED",
+      "physical_photo_eligible": null,
+      "rights_status": "Recorded attribution only; no current legal clearance. Private test use; verify rights before republication."
+    },
+    "source_mask_preflight": {
+      "declaration": {
+        "pose": "unknown",
+        "material": "unknown",
+        "framing": "unknown",
+        "genuine_tiny_text": false
+      },
+      "declaration_provenance": "reviewer_input_not_automatic_vision",
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Source camera/pose unverified; no camera compatibility claim.",
+        "Material unverified; opaque paste may fail on transparent products.",
+        "No verified genuine tiny-text test; cannot claim fine-print preservation."
+      ],
+      "frame_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0,
+        "touches": [],
+        "needs_review": false
+      },
+      "mask_components": [
+        33198
+      ],
+      "foreground_px": 33198,
+      "soft_alpha_px": 4046,
+      "source_rgb_sha256": "ddbc856b1a6311a33e08cba1749e55971fe6e1ed9473cd7320c2d3b297069a0d",
+      "alpha_sha256": "eb3dedc01cee1fe300d0a1022bc26ecfcd82da96f676f35c8263f897f85596a3",
+      "semantic_mask_accuracy": "NOT_VERIFIED",
+      "publication_status": "NOT_EVALUATED"
+    },
+    "variants": [
+      {
+        "seed": 1,
+        "file": "social_ad__seed-1__PROCEDURAL.png",
+        "seconds": 0.31,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      },
+      {
+        "seed": 2,
+        "file": "social_ad__seed-2__PROCEDURAL.png",
+        "seconds": 0.29,
+        "execution_kind": {
+          "kind": "DETERMINISTIC_COMPOSITE",
+          "caption": "DETERMINISTIC COMPOSITE: source alpha pasted onto a backdrop; not new product generation.",
+          "quality_evidence": false,
+          "credits_verified": false
+        },
+        "photo_accepted": false
+      }
+    ]
+  }
+]

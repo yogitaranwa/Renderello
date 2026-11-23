@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-11",
+  "evidence_status": "Historical saved real calls, not current pricing or an accepted quality/value configuration",
+  "cases": [
+    {
+      "id": "deodorant_backlabel",
+      "aspect": "1:1",
+      "source_size": [
+        500,
+        667
+      ],
+      "prompt": "Create a professional e-commerce product photograph on a matte light neutral tabletop with a soft off-white seamless background and a subtle natural contact shadow. Use the exact photographed product from the uploaded source. Preserve its existing camera viewpoint, silhouette, packaging, proportions, colours, material finish, logos and every visible character of label text. Remove only the old surrounding background. Do not rotate, redesign, uncrop, duplicate or invent any part of the product. Keep one complete product centred with comfortable clear space. No props, no added text, no extra products. Lighting and support must look plausible without repainting the product graphics. Output a square image.",
+      "rights_record": "# Fine-print stress source\nPage: https://commons.wikimedia.org/wiki/File:Deodorant_stick_with_ingredients_label_(back_label).jpg\nExact downloaded preview: https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Deodorant_stick_with_ingredients_label_%28back_label%29.jpg/500px-Deodorant_stick_with_ingredients_label_%28back_label%29.jpg?20221023030709\nAuthor: Notional Target. Page says own work, photographed2021-10-20. CC BY-SA4.0, attribution/sharealike required. Not legal clearance or brand endorsement.\nVisually inspected500x667preview: full opaque deodorant stick on dark fabric, back label physically photographed. Readable source text includes COCONUT OIL, FRACTIONATED COCONUT OIL, SHEA BUTTER, SODIUM BICARBONATE, TAPIOCA STARCH, APPLY UNDER ARMS and DO NOT APPLY ON BROKEN SKIN. Small manufacturer/contact/batch print adds harder detail. No OCR score or perfect transcription claimed. Frontish slightly elevated camera; declare front for seamless studio test, not automatic pose estimate.\nUse this exact500pixel input honestly; do not imply3024x4032original tested. Original download not obtained: browser sourcepage returned429, stopped. This is an added stress source, not replacement of failed baseline tinytext record and not a20source rerun.\n",
+      "tags": [
+        "tiny_text"
+      ],
+      "template": "minimal_tabletop"
+    },
+    {
+      "id": "can1",
+      "aspect": "1:1",
+      "source_size": [
+        800,
+        680
+      ],
+      "prompt": "Create a professional e-commerce product photograph on a matte light neutral tabletop with a soft off-white seamless background and a subtle natural contact shadow. Use the exact photographed product from the uploaded source. Preserve its existing camera viewpoint, silhouette, packaging, proportions, colours, material finish, logos and every visible character of label text. Remove only the old surrounding background. Do not rotate, redesign, uncrop, duplicate or invent any part of the product. Keep one complete product centred with comfortable clear space. No props, no added text, no extra products. Lighting and support must look plausible without repainting the product graphics. Output a square image.",
+      "rights_record": "CC by 2.0 by Dusty J | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/55608722@N06/12199880715",
+      "tags": [
+        "reflective"
+      ],
+      "template": "minimal_tabletop"
+    },
+    {
+      "id": "backpack1",
+      "aspect": "1:1",
+      "source_size": [
+        800,
+        554
+      ],
+      "prompt": "Create a professional e-commerce product photograph on a matte light neutral tabletop with a soft off-white seamless background and a subtle natural contact shadow. Use the exact photographed product from the uploaded source. Preserve its existing camera viewpoint, silhouette, packaging, proportions, colours, material finish, logos and every visible character of label text. Remove only the old surrounding background. Do not rotate, redesign, uncrop, duplicate or invent any part of the product. Keep one complete product centred with comfortable clear space. No props, no added text, no extra products. Lighting and support must look plausible without repainting the product graphics. Output a square image.",
+      "rights_record": "CC by 2.0 by albertoziveri | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/92167476@N03/9418654172",
+      "tags": [
+        "bags",
+        "complex_edges"
+      ],
+      "template": "minimal_tabletop"
+    }
+  ],
+  "charges": [
+    {
+      "job": "backpack1__gpt-image-2-5-flare",
+      "credits_charged": 200,
+      "status": "complete"
+    },
+    {
+      "job": "backpack1__nano-banana-2-1",
+      "credits_charged": 50,
+      "status": "complete"
+    },
+    {
+      "job": "backpack1__nano-banana-pro",
+      "credits_charged": 150,
+      "status": "complete"
+    },
+    {
+      "job": "can1__gpt-image-2-5-flare",
+      "credits_charged": 200,
+      "status": "complete"
+    },
+    {
+      "job": "can1__nano-banana-2-1",
+      "credits_charged": 50,
+      "status": "complete"
+    },
+    {
+      "job": "can1__nano-banana-pro",
+      "credits_charged": 150,
+      "status": "complete"
+    },
+    {
+      "job": "deodorant_backlabel__gpt-image-2-5-flare",
+      "credits_charged": 200,
+      "status": "complete"
+    },
+    {
+      "job": "deodorant_backlabel__nano-banana-2-1",
+      "credits_charged": 50,
+      "status": "complete"
+    },
+    {
+      "job": "deodorant_backlabel__nano-banana-pro",
+      "credits_charged": 150,
+      "status": "complete"
+    }
+  ],
+  "latency_note": "Submission response times are not render-completion latency. Median render latency and accepted-output cost are not established."
+}

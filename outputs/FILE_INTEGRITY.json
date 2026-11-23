@@ -1,0 +1,3252 @@
+[
+ {
+  "path": "00-best-existing-review-candidates/00-first-look-contact-sheet.jpg",
+  "bytes": 278450,
+  "sha256": "20240e9d480bdfb66c88bd65cde921ef9995fe618e3eac076cf58b21fb32e9b5"
+ },
+ {
+  "path": "00-best-existing-review-candidates/10Nov-baseline__16-wine2_lifestyle_kitchen.png",
+  "bytes": 772473,
+  "sha256": "ea9c33acd0e42ff179ed082ec5d49a9e4a1ea2bfd624bfedd4f7ccf2fdd9249e"
+ },
+ {
+  "path": "00-best-existing-review-candidates/10Nov-baseline__17-lotion1_editorial_beauty.png",
+  "bytes": 1065272,
+  "sha256": "ac729eb61b83e7f513e2e5d0322ae4f7218400f582606dbcc04d3b61d75178ad"
+ },
+ {
+  "path": "00-best-existing-review-candidates/13Nov-can2__MAGICHOUR-nano-banana-2-1__ALTERED-DETAILS.png",
+  "bytes": 1270817,
+  "sha256": "518de28c8f26ac45a5085598102f484bacc7fbd275ae6b02ec87a60ac2619671"
+ },
+ {
+  "path": "00-best-existing-review-candidates/13Nov-can2__MAGICHOUR-nano-banana-pro__ALTERED-DETAILS.png",
+  "bytes": 1222891,
+  "sha256": "3201964a337cbd17653dce93f0386daa4488853de6d27a4e80924a05122ca6e2"
+ },
+ {
+  "path": "00-best-existing-review-candidates/13Nov-can2__SOURCE.png",
+  "bytes": 356699,
+  "sha256": "9ad34cd62cfa95a6a005e58c330e7c0680af52a7910a6b07b201cda24b3f4af6"
+ },
+ {
+  "path": "00-best-existing-review-candidates/13Nov-lotion__MAGICHOUR-SCENE-SOURCE-RGB-COMPOSITE.png",
+  "bytes": 940866,
+  "sha256": "7d9654c1d8a241995ffb1d160b8c17ad3b45425ef0f91f5f398b1026f64e3aec"
+ },
+ {
+  "path": "00-best-existing-review-candidates/13Nov-lotion__SOURCE.png",
+  "bytes": 94034,
+  "sha256": "129a387c5626ab7775baa187ed8afb590cb07b3ec5bd5af33f399538d1a98425"
+ },
+ {
+  "path": "00-best-existing-review-candidates/21Nov-latest-MagicHour-run__EMBEDDED-CONTACT-SHEET-NOT-NATIVE-OUTPUT.png",
+  "bytes": 155777,
+  "sha256": "86e8a1e42a9e1af86bb61d75025cdedba153fc684ead5b10dd52a5a5649eb155"
+ },
+ {
+  "path": "00-best-existing-review-candidates/SELECTION_NOTES.md",
+  "bytes": 2220,
+  "sha256": "5833fa7a0e1d1cfe36c794bcc2223dd50771e85b7793cb66055332fc63ad3c11"
+ },
+ {
+  "path": "01-procedural-benchmark-480/automated-diagnostics-NOT-quality-ratings.csv",
+  "bytes": 579361,
+  "sha256": "c72966dc589a71d7ac0f0ab48bdcd2a4889d38f2255f43115b9f585daaf38e9e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/00-source-original.jpg",
+  "bytes": 42864,
+  "sha256": "4d92fd2b6858c4eb62f4e44e2a9ff50e086cf80828b57ca198ccfe04025cd59c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/00-template-contact-sheet.jpg",
+  "bytes": 123915,
+  "sha256": "174011d83e83bc945977b26d34f80e4a28c36f714ae3cb3d2692acfdcce01aca"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 644565,
+  "sha256": "7692bdc22d5059fd1509f7d70b67ef8b9c26433b0b0fe757d16ed99ed435126a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 389822,
+  "sha256": "008c6fd8fc0b9bdb4ea6281b16da839f59a344465cebc6cf9938aea7886e1b12"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 826842,
+  "sha256": "09a7739a3ced2b1dee1fcebead85f3fe7136f20c6cdfedbe9e178109f89270a9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 821383,
+  "sha256": "94da34869346e32e8f6b37f7bc39fadda5555513c2af2ad8a3669f9145f43cf8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 740458,
+  "sha256": "02a38d1b3ec0db20d393a8b6f4255d30b613ec503de0587aa29481f7e6058942"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 611103,
+  "sha256": "3467868fbaa3584cd239dccd2a3c1c51052af1c71a1809260fb0ea4675b675df"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 591573,
+  "sha256": "9ff2fe7a759d87868d2760d80af0c029e409291003b52b64d45289a3cd1c5432"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 613065,
+  "sha256": "3bcc934ede8f6c1257bb482db6e8e771dcda64592606a24aee0e57c434470468"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 699101,
+  "sha256": "fd973de1338b3b74522eb4b4f55e1a6117b9a8300762eee8fe4ecea658d2daa3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 712266,
+  "sha256": "931a9a52437279bc3efeafa09c62d7015623cf499a35f7c8cbca8221eff549e8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 727346,
+  "sha256": "5ace3556ce8f6bd28f616a7593c02158af056bbf2c1f76f258862b56567ce2d2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 705734,
+  "sha256": "b2cacc76818f100c411f4147a85c03083ed21b9a05e4506c6be43d950f3f68e3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 601458,
+  "sha256": "ea3250b91038c385237ad94e60259cb6b0947e146b7b554541f8061f7e22e0ed"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 606308,
+  "sha256": "dd3daaf401672987fd68b030ef9f187ebc0290b0410d81e18130e109f1af64c7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 785764,
+  "sha256": "14cca6af003bfcac068769865cb97b9484b1e04d6277f7f675ea9446a0742bb8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 790700,
+  "sha256": "dace6c299902f8f9e948c51aa1cd5a2195f025685a0b0135d75db1510c61bf5e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/run-details.json",
+  "bytes": 34370,
+  "sha256": "6b02716d4ab3db6e4d63bb894115483bfeef76dc2dbc562fc2a836ec82af46fe"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 807532,
+  "sha256": "74f42d5b0b34e87e642011560fb5b529d4a530a86ea0b136ab7ff4b6bd578236"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 809642,
+  "sha256": "872cfcf1791698559b8cd343b921777b469bbb702bb8a8356c37d714c5210eb3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 777227,
+  "sha256": "a8bba28e0ae499f7e52fd3fdce524ca5cbf781fa0ec1c09c51442f338410bffe"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 774763,
+  "sha256": "776fab7d88b287a3a4f54c4f1e5327968f711f7eb823da9cb4ded1c73235f826"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/00-source-original.jpg",
+  "bytes": 76360,
+  "sha256": "de2ae2751f4aa9a4f7ffbdac2933f560c1fb2b1305801434d4a18fd619ac2a04"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/00-template-contact-sheet.jpg",
+  "bytes": 119805,
+  "sha256": "e6af589f55a01875c23cfe041b57ca03d64ca04df0ab418388272e93a97f070a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 788822,
+  "sha256": "5a29ca0b13946cc2be74229ccf84167bf2a1597dec84f6d09b27adf09c3ccd92"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 508052,
+  "sha256": "cbfbedf3475df2ec656795c69a681fecea10ca5d2cdf86f13c3199a5da097fd2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 974371,
+  "sha256": "03f4ef34f73300335dff896ba63f60eb1393da13cead08f111f42ee6b97e872f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 969070,
+  "sha256": "c4c2bada2c69997fd787d791f57121bd5539df9d9957c36bd73a02e35aba325d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 901164,
+  "sha256": "cb6189f96a23ca874229652e2c7918629d3d1e5b9c1a59f5d925f120ea3ef194"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 772191,
+  "sha256": "ab06b68c873b383efe3ea2d507ebd0fccc5ec72d38a347324f586e2376ea609f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 650899,
+  "sha256": "4ce9b35121db723392aeda2d64f0ad1f303d1f9386a6bc303319f6d851c6847d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 692414,
+  "sha256": "a1eb9800bd9ecc94f3e2854461a2e8e1a4435562d8de6ded5d5ec4964ceb59d4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 845021,
+  "sha256": "cffd0e9b5c952744c10b38fa04a8ea6e9d7e51541798b4c6c3a46ef647a68ef0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 858885,
+  "sha256": "6528aeed430c5cbc90c27c874f1bba22d3a97ad27d40033578186364d367389f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 887884,
+  "sha256": "8c5e3060dedc7da4cdfc1a22f01656658afe40afd4dd7449aedda1e2bdfbca56"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 865311,
+  "sha256": "4576cad853ddd212808452cd48a373d65ec04ecebe3e2e0d1caf8d57d32240f5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 678698,
+  "sha256": "53032cd17ceeb1575456af9326ce30548675db7baf65bac76db377f86e94b541"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 690075,
+  "sha256": "9db7efff55d24eb9901aa23899a59a00c965559202f6e6042d986ec919422a57"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 948743,
+  "sha256": "687646b5c4be36261b386043de83a7f774d3aba3dcdc7325a66e4485d815940a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 953631,
+  "sha256": "8ebefe558baf8c72348b85c8671f6a5b0d63a148a98c5700285e9e8a138bc47a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/run-details.json",
+  "bytes": 34329,
+  "sha256": "d995e0b7fa9138f6ff0dbf94190327008f03b229f3809a07864acae2253c46d2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 956388,
+  "sha256": "fb4fb7f804b5479fe8ff1f33439e4690684a579121e553ba98e11a484dc6ea49"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 956301,
+  "sha256": "403796a72d1ef26eb8f45fa7c467e8629ae04ad4b9edeef19179ac31e7077d9e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 920634,
+  "sha256": "5bc26b667a44d1e69ccf041d3f66fdc2f5ea5ff7e2a6015e5a1d75853c2f4793"
+ },
+ {
+  "path": "01-procedural-benchmark-480/backpack2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 919196,
+  "sha256": "6d2d4869fbe258cf1f000511532e364ace23740a4fb0745ee47e06308e48a361"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/00-source-original.jpg",
+  "bytes": 28137,
+  "sha256": "0102fa5b05fb83ab58568bb33899b8533fd6938f31c08d66572d28149fe85652"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/00-template-contact-sheet.jpg",
+  "bytes": 92790,
+  "sha256": "698ccf90f701edbcd061dadc141b22beb86d7eba3bcc6a677f3cd2da6b5b07d5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 601690,
+  "sha256": "99f27adacfd955b4bf3bb9a20478db2c1457e11088657dbd1df1d326b28e4bdf"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 248049,
+  "sha256": "e09bddc04cae0312a57ccec14f561a94b856b092c085a3438483cbd9d0e5f0e7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 796460,
+  "sha256": "889c3e13f8754307fb1e8dec2895added63922efa102094edb755d06fcc40ac1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 792690,
+  "sha256": "b60dc8a6b7bc94d6c3dcbe1a6d93a4463c5a87cd2a1b5d4621b4c12a1f59bfcf"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 693690,
+  "sha256": "96d094541cc20d5f7020f79e7410061e07db147cf083145a5351c845f117179e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 566801,
+  "sha256": "8d1fee01f6f184c21bb47c8c37fad2c64357c1d199e7b7a1cdd3ff48ab87b540"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 577314,
+  "sha256": "d8213ad3356f023b16bfe8256209debae405b7edc8b4871a09cdad6ab87463f6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 583448,
+  "sha256": "cbbb665ebc67998490417e95a204011fd642d93729555217d531e269f002d083"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 641148,
+  "sha256": "53a6bdba45d7fa5b8ec937813ed3c7bb03b8464fc4204e8fa174ffa76e14196f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 657185,
+  "sha256": "d16cac9172209898981a88b9416b921cb36d0d0c444807ac13a41eb1b4a77dd6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 679294,
+  "sha256": "872f32bbc8c87d275d158e44d15e918e5f32f609366f5188b54e2f1ab3937229"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 661356,
+  "sha256": "ec7d45a9096f247e5a4c686d918b4b2e19906fbe79d77300ad32fee031b5d525"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 564361,
+  "sha256": "0de72999c01d1d1a6e266880b258076974863443388daa59a236206ef9a1a66e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 571558,
+  "sha256": "99c31e0853ca94e2f5e0810bd0fb106db3e02637a6a7dad25d8a660b41c30a0a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 734823,
+  "sha256": "97a1b9b3925517a1b856f52c6509a7c63af0ec27b22b90c8d215adfdc10cbf7f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 738692,
+  "sha256": "70d99d317d47b53d66cfe34a73228dc7b415738f15eac8f7494b9d3110520b87"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/run-details.json",
+  "bytes": 34238,
+  "sha256": "66c4489b00b9bdd5fdb2f6f4f3603aed5c38e14a32bcacd603d95434112604d9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 765123,
+  "sha256": "cb7dedcde4516b10190dcc64b7e260af2fb1bdfeaade442cc3fb2706ad13a596"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 763749,
+  "sha256": "75275b0b40f8bba01928d90cf6f3c304f446943a3ec4cbc24ae65dc72750e614"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 733767,
+  "sha256": "cc7b7c53e89bf00631e780d67af295e45f51b6735b395b3601d4b4426cdadc26"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 729545,
+  "sha256": "60fd245cd29f06218d4882ff15693624bdb453958a1632e9fd233ed4b86238f6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/00-source-original.jpg",
+  "bytes": 56540,
+  "sha256": "6935bcc100b1c9263c7e60e81cebf9579aec28e158f3cba884712b7adf79e7cc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/00-template-contact-sheet.jpg",
+  "bytes": 127333,
+  "sha256": "b6d73cf7e89480a68dd115b1a924010984ad11ec25cbefd7d0fcd2ef645300b4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 781990,
+  "sha256": "598f869739c3de5a755aa34b9bcf7e285ff4278e435f3bf2eceebe07d872e1f6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 461666,
+  "sha256": "898c0bae41f523d0dc77ab68487a3e7007efdc35aa4b9cd61181d9bef2f6e8dc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 972306,
+  "sha256": "2d21a65c68d977a78f09e16d0484b4ea2c26870b0f5a92b9b86badbf4bb4992b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 966478,
+  "sha256": "fe16de7d95cab60fbe40ad605c363567c9fa98d74c201753e2fbabc8ada392c6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 892778,
+  "sha256": "ef1b7ea64dbcff9ed8ad1cc1a018264feb1b5afa015ec6ec8ac5360406d4fee1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 762739,
+  "sha256": "8c9b6c271cf80a7403b29d86ac107f8e02df47976931e6a2e2f837f8093fb7ea"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 650215,
+  "sha256": "2c2e6c6948b8e420fa5d713ad421470b0d3d708203f8ac42c350ba946c734d4a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 694305,
+  "sha256": "ea3df8125163f04e36d4b9c0db4696430e9939100ef697ca810f2ef7d3667dfb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 840390,
+  "sha256": "191e9b24e2a5c1bd6ce4051d5267692f04d5aa88dabe2b9666f5bf3227647afc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 853728,
+  "sha256": "3c9ccd8d94094f5379f6b20147572491ac245575ea35d06b9e75fd4afde7f29d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 879394,
+  "sha256": "7a3e6fe8b06ac4ec86b2b172c76b713c1e3184bad83bfe6b6a6078e56c6a81d9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 856856,
+  "sha256": "34720463298acf13c340ebe2d46fa2ec0ede420f9a9cd2747033f747dee3a8ea"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 683822,
+  "sha256": "1f5bf980344ef1bfca2a5e6c2e38b4af2d729d3b3728d77d659a079406d02749"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 695711,
+  "sha256": "621ee564e2a3edb3ef4c79f385d1985294f53f0fbdb441524181a898fdcd6479"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 944264,
+  "sha256": "bdb3c6660705ed680892192e5d8cb9a1057e6314efbb056d1e943a6429a15ba7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 950258,
+  "sha256": "fa471545b2ff67a992bc30d113e8afccad3ba153cdf0133deacdebe16589e425"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/run-details.json",
+  "bytes": 34331,
+  "sha256": "2793e56798bad3de784f78f09ba1bfee34709cd9bc3a4fe16fea87fe2896acec"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 953186,
+  "sha256": "c083699c9450196a9dd7e4ec17bf763a79bc2f9b5477f0f6d3459a14f81b0834"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 952208,
+  "sha256": "2cdd0f457d4e0abb1909a532c77ac27480a9ee9052786c3871a218ec160a9cf7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 918777,
+  "sha256": "50730cdc153c56fe6e79799939783daabcd81fc38283e3bb41c174a890184da1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/can2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 918239,
+  "sha256": "87b431fbafc565f8203dfa1dbc989dd844f5ee0d219237d2da41cf772f6bcc84"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/00-source-original.jpg",
+  "bytes": 17367,
+  "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/00-template-contact-sheet.jpg",
+  "bytes": 81984,
+  "sha256": "ceee0eded33698deb20244a201d263df4ecf4e03edfb266fc87770b60ae3721f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 606654,
+  "sha256": "7ae7da24a2d69cc195e2dafb05b3a84811f3bc6b94a1a90b4304688b5a9f8b2a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 233878,
+  "sha256": "9f0c4f9824535a0c739cb597e398046c50249d7a822544cdf1e34aa757af067a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 800796,
+  "sha256": "e0d785c276de0adb1854a62133da850f5adcb24d01735f87a55ad5596cd0f674"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 799409,
+  "sha256": "0fc8b296da79ee6f675b6616a2d9a5b3024fa1deb272edc3db7d2fa95a8b43c8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 693667,
+  "sha256": "e19675fc25b70a4533b2c4a44e77eb166c073e2d484a9da596ff68a40f3f8435"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 567908,
+  "sha256": "7e9465f21e1958a89a8a83273f31ddd5b89fefb14321372222eaecb82a4e473c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 580141,
+  "sha256": "09f237088becb0e7d62db80f6d2fd330a129c94500168b2eeb3cf25423b11c9b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 584531,
+  "sha256": "838dbe90942add97ca5e9f0a89e12c7d611672b8ea9fef3f0b820d3d343643f5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 644895,
+  "sha256": "775aecd3ca36a9b03313654aded1e40c6941d11c31a1fe324f7013db1f73e614"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 662717,
+  "sha256": "f8cd8409f799705e29e7483a9940906915f6c545602bbd300be8ec41bc2f4c5e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 677023,
+  "sha256": "2932dc3eeb55c69cc098f9ec23482356715d2d4c90f9c7d7ce6408984e5c5aee"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 662330,
+  "sha256": "9252d1012de0fc2c5824944cc7b94d4575424b9b439b8924b1fdf05a63aa4ccf"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 562960,
+  "sha256": "d422053efb77d738ac5ddc28283eca20a4e9cd206075b2bb489eb09804d341d5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 571175,
+  "sha256": "8d09a2d67cae5df1d9937791a4c2ba4c2fef6491a75dd825f60d1d56820cc4a8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 744867,
+  "sha256": "682991bade12167bf604ade48cc68788462679e0bf8799e98cf21cf6d97cf73b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 748724,
+  "sha256": "febf40d0d230e6f1fabb395f495937128c2b86537cdd9704b88e0aef8bdbb305"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/run-details.json",
+  "bytes": 34601,
+  "sha256": "23854d98cf15a4aa1e3e34ee9befbda291e677379e0f0b9dad28d2b8c23c9c72"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 769507,
+  "sha256": "1ebbe736a71086418e9d44d0141df523a1b9937ab9a2f2ef7a2a792bfdc4217a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 767985,
+  "sha256": "702f7cdbf1b7bb0ecd09e14e9b4feaae5bac98aaf227db8cba3f68f7ab51f57e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 736195,
+  "sha256": "3e370599914b5ffd8d6cde81e63c640efcf8f4225092b7763537a790969949c9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/facemask/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 736347,
+  "sha256": "576b23e5f78edf2b3078366318ed491eafe1827099e6a75916359601d6fe658d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/00-source-original.jpg",
+  "bytes": 387704,
+  "sha256": "a6012e95c5e0bbfc56cefa3c35ab7560cd726884eacebc92b9a9e81de4e5b672"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/00-template-contact-sheet.jpg",
+  "bytes": 163631,
+  "sha256": "e64fcba34cc142c1a7470b0b778f65469e8c6e2601b975d4c14172f4155b882f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 1044820,
+  "sha256": "185421efd0bb9e8a898c12943089e550d68c9c743d6fdbcdd803d818552b0977"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 780891,
+  "sha256": "44689fdcc9831f0f1e591c719a932f819bb4d2d051f6ff6d1f22727306ab7be5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 1238243,
+  "sha256": "2e402dfe27ed474b32fe7ad270671294bf3628cfe9e0d6c1a7345275d910b2c0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 1231673,
+  "sha256": "02734619aa4dc9cee38583bee086f011b75184b86331e05379bd04dfadaca751"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 1169427,
+  "sha256": "fcc7c121912901bf8bcec0e845d6b0aa98f82a8578cde7d925169a52b2a39bbf"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 1037499,
+  "sha256": "d7a0c77cc58b7a473e714061a39e62806c1e0ed67adbf2bb00be0f6801b6f41d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 756089,
+  "sha256": "bde125b6d56bfb7289e4d3e07364a831d5a80fb0abcde6c9d729e421cfe283e2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 845290,
+  "sha256": "eba69c27b81dfee901596ba32b3b990708d6d933f6974a2198d30e6bfbe7fe2a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 1107610,
+  "sha256": "b700e3ad2f86165b43f48be4932ebe44554b4d55419f1b67194fcdc2b4a3de08"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 1121679,
+  "sha256": "bbe3c5f38383cbed13463f7c376588c1c156267d859c935f4c19bd386e2460cc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 1090579,
+  "sha256": "6cb19157afc2fb080f852b1c4f75e5ca4c6f46475085a3b8d67cd1223ae52436"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 1132409,
+  "sha256": "2bbf4cf9789e9566707a2dc5be9b449d44bd89ede52d4ffd261e0d66f3e0a6ae"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 830609,
+  "sha256": "75ace1ade59099ac33cefa0f460f9b48809b86519534550bc409681869a30db5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 850215,
+  "sha256": "d0bdc3d5182dab02cb5259e9e7c628b3ce759e427615a1425e877b036301f398"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 1242212,
+  "sha256": "3eeee9db21b46dc451393aee52ceb3421fc182fcdba30c5b3fdc6a76f3d19c7d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 1252984,
+  "sha256": "3c5ad8450ed3948ec6f3fe6753b3989ebd5486c433e650b01ca207bb754abbd1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/run-details.json",
+  "bytes": 35781,
+  "sha256": "4137bc76317ca54b8cfdb431cffe107cb1d64fca52458a71b3efb0c263de1df6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 1220408,
+  "sha256": "5d8cca8d811294a2c0361e84dc9f1001b2f370948999ec74a7003d2e2e04c428"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 1220000,
+  "sha256": "cc6b77e8cb21d667cc88e1fdf52719dd50a1c19f818a7f6221432cb850c83395"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 1182063,
+  "sha256": "4c32f16261e206febd6ec78bb64bc5e9ce28f3ed7d3c1ff58625b59906a38483"
+ },
+ {
+  "path": "01-procedural-benchmark-480/furry_teddy1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 1179415,
+  "sha256": "7cbef185a4d7fa3276893b79ffcf395443a26d51d8c44842de7f4ba018b6bef4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/00-source-original.jpg",
+  "bytes": 21857,
+  "sha256": "18d849c82947ed19ca6403ec67822f95f8dae87273c24d38384a0101bd3c61cf"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/00-template-contact-sheet.jpg",
+  "bytes": 94540,
+  "sha256": "32359b7eac69889643bda1ae9d1e6af6dc4a5033009adabdabaedd044580d63c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 566417,
+  "sha256": "6cc367211cf81909b89be55cdf78340ab68e550a4b8676ac47ec6efd4db51876"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 228740,
+  "sha256": "c7b99c408bc3de94fcb239db8ecf722eee7d3e3ed9487a717e666f477bb134dc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 754648,
+  "sha256": "af03e537f977e1d070519da9ed88ebc9f72a306e46a1138f02e265f000d421ca"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 749339,
+  "sha256": "5bbb0b7fa390a0f6c374aca2c39d3e86586b87a1b54d36fe2a694b34d22432be"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 676762,
+  "sha256": "b18a32d18e23e64cb91467589636a5c4af50cece41ecf45e5f2ac81fb92719ef"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 551179,
+  "sha256": "91f21e0a861de840878938850f19043b471ec4f8629edc9962805eeabe940655"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 542162,
+  "sha256": "8ec75450f5e90ceb6e32189644e8b36476ca106ab3d8a02456366adc8766327d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 545029,
+  "sha256": "2fe3e07d67b86d1b3715a027d68db4add79be16375415d96431860f09a20b738"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 618935,
+  "sha256": "cdc47d4c502b2a4c1a8d3598a6fd55d8c7dae2087e771f99dd47d073c2f19186"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 632709,
+  "sha256": "a3b65f66a9c4384ac61797ba55878dfb258ff2a606341f2e6c3d686dd47fb723"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 665134,
+  "sha256": "dc72550aedd3a4c7e0456f286967ec9473082172852b1de01a2dd6656d6931b2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 645132,
+  "sha256": "c45fc91b827e3cb9a78f231630f08b98a01eeb9a82c8c02c248113efe5b2920c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 534229,
+  "sha256": "9996c8aee4606fd12acd5ae47775df6b2575945e2ef64530beab5ee7d4dcfdff"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 537946,
+  "sha256": "c29b5f2a4903528287e61b5c2616fa0647d56d5c659ab335837a77c0e8775c99"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 705409,
+  "sha256": "47b197dc4c7355ec1587d8c3661530116d5e80c802fc4476e7ae382818e509f8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 709571,
+  "sha256": "e26caf7b9bea137e9d9040dfbfe51d887b62ebb7df10e524c853bf7c1176f1f7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/run-details.json",
+  "bytes": 35679,
+  "sha256": "f593f18ef5c5229bdc3c1af408a8e9ad94a182b4f1ee1c4c4dc572ff4d5c5ab2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 736211,
+  "sha256": "5c3fcf6ded6ac104eb143a90d9fb4e8980b8c683f1b83a995f0a10c3a6b2027d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 738831,
+  "sha256": "0e1935d6df6f22f658b36184b60fd7f5678d0477eed876ad59520dede14ff4d7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 701391,
+  "sha256": "ed0462edd1cd61098668a1829c5c92a1f2cf6d4f9606da27ecc12607ae40ce70"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 703112,
+  "sha256": "ddb233d7f90324df315d45106411682e313c17c05faf19fc355719d4f5d187c6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/00-source-original.jpg",
+  "bytes": 53363,
+  "sha256": "7179b01e25f880663d7ce084088c3a7e67a2d068bb38fdf6c4a36df3f59700e4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/00-template-contact-sheet.jpg",
+  "bytes": 98871,
+  "sha256": "60ad97c5967feccab90ad1f6ab277dbc027e2c51c4c102f5646eb4df2018d6fc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 683523,
+  "sha256": "8a429128b579021850dadbda1b407123e620bf75f7c284d4bce4ee479f051288"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 330785,
+  "sha256": "60be06c8044864f9e7710ff5ca2826a5d7b9a18f4260ce4ba45da3063b9a3535"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 875814,
+  "sha256": "73f6f5006369b2dc77daef282c9d1c6524da0884e7d6051e5d5b6a531d22b899"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 876189,
+  "sha256": "8b3249238f901acadd0da9f75a79d1d7a7e89ff4b0a88d7a4fc7408c76c56b5b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 784918,
+  "sha256": "10ace0942317f5e8594fe95641c4fd0c6826ba80b1d246af2c8bbb5f13a14cb2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 659313,
+  "sha256": "12a96e49a6894f0d488d3ce8b0d1b103294aa3733690c31d1f360255087902e5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 619791,
+  "sha256": "5351b84bc488599979e973d4c17ab40ef6e9423588c9dd69adc436ade6ba76d8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 661524,
+  "sha256": "66747f1ece6fd51c96a287e8f68f25456d82140941488d7b5d027dd3c8a74cce"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 730250,
+  "sha256": "e23fc28bb62d9df647c0ea4a652736202fc5026a63af5b0b269d8c3e438cb165"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 747921,
+  "sha256": "9197088717026767ca412013826a28a5b14377f1bfcd0b9a5eab3139f9fdac5c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 770403,
+  "sha256": "908fbfcf781e126cf182f749a1002b8a639dea1077afeb4f34f4b20f5328bc7d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 752468,
+  "sha256": "9470bcf50a979bcdcb436ade0feb9480db59b2940660c5e3a42dcce939dacfce"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 648473,
+  "sha256": "478779495dd177a4b2d2fed015c0daf3c0863c9fe8207643da6d64cadac90dca"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 653369,
+  "sha256": "bb8321db768fee37c7ca62e53cbc31d1ace67370cd22418b38372977a25e0fc7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 836526,
+  "sha256": "bd265b2f9604eff3f7a6663d17bb8a8e99db66281696ae93f56d0477caf6fca6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 837114,
+  "sha256": "12f7d7ef4fba88132bb58dce5d796cbda0a6448c9a34c59e31e0e941f946a4db"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/run-details.json",
+  "bytes": 37130,
+  "sha256": "0ebbe2813a1b649f4d3382b1f07494dd5005a0c8203ef7908ee1b1fd201dbfeb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 852370,
+  "sha256": "324109e0371a59b05d14912030041d2c05b0435a263eb36a006f928a327ee22f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 851033,
+  "sha256": "5145a2fb9478046c9081a47db24df33f9a0126fe4c90db248f849f7e7ba29db1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 818512,
+  "sha256": "fca6f62cc9249f049915d9fd2ab5c9f41a03532d199a3bdb31da5c7356afeaac"
+ },
+ {
+  "path": "01-procedural-benchmark-480/glass2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 818956,
+  "sha256": "4712ee572e62efb1ea60f3bb71cff0ac29b3efcbf053a84712d2b177d7c7552d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/00-source-original.jpg",
+  "bytes": 18428,
+  "sha256": "d3b71b10df98d492f0a75dfc03de3c35c58a4f81471a1ff013d49efe8067094f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/00-template-contact-sheet.jpg",
+  "bytes": 92615,
+  "sha256": "cdcfe8dd3d2b1f1bdeacdfbd82e59df54fb39b65e959c3f3fac8f9671197c721"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 586683,
+  "sha256": "6ba3cd6678b467664616f00c7de7d405bfd43f90116093d57210d6576d6a50cb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 244217,
+  "sha256": "ce81333aa6dd34df8100093f51159edf418bc18e4293e2bd507410cf88b9e6e5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 779511,
+  "sha256": "bd57ec23db30d630da5fcf628938ded99943abc16cfd75da36d4aca608622645"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 774750,
+  "sha256": "e2a32a96528fa54ca69a2295d6ab61f0d2da898aa92682627947e9ff1eacd91e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 691777,
+  "sha256": "7a7ad1ba63dd664360e8cbdb2818b227220449d1c9b115e658d2620ce8ab4c7e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 560486,
+  "sha256": "0ef78b0942d10838944458ce97f860fcb3fd38c468a3df29d7e8b448b75a1e6a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 548150,
+  "sha256": "144ebef6c0e8b37a05a612152a36370f7404701fb84ab1e5371853c59848274e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 554211,
+  "sha256": "05d2a59fc75dacdfada36974d75afa6715f5532c962f5c2158e05d93ac074d99"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 639697,
+  "sha256": "98b939b553890952f2c42b2d2429ff5aa6b3a5f24fdc8bce6e9969b702668421"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 654057,
+  "sha256": "e9838b96486dce3f6e9acb70f23d99467f2d2ccb48bb4e42dcdabc30bfd380f2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 670160,
+  "sha256": "903c7c04a5d0d43721270f89d31a9af763127578487a6e04f125f4b373dc337d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 651492,
+  "sha256": "5cc7d96a936003dbdc63700faba5008fa2a050469d70ba3d4b95bd311fdc4e28"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 545751,
+  "sha256": "c6bd128c381557d212f43f9e7e62ff7cb13bfaa39fc147fb76e9cd461ad20539"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 550448,
+  "sha256": "91339d1c0de62a566386fa6620fe8dcfe183e442fe26959fbd7d4be29fab7719"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 733073,
+  "sha256": "7f69fc36c6f7c718f573c07ea057934e517faff42563218cd92462b8e572fb80"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 737759,
+  "sha256": "1411520df4d1d83995f21c5accf3030aeaa2df77e9c99d53631cc1f4e734c299"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/run-details.json",
+  "bytes": 34348,
+  "sha256": "b15ca2b855241fab499fb21f69a600421c6f5baf00b43cc0faf05f99273b7fad"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 757001,
+  "sha256": "9064b466c9690d8b217cd53fe3beba1244da6f15503bad5ea233cbfaf715aa9a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 751824,
+  "sha256": "19c7c9a716657acd95d347a86e83def46dd7e3538ce84699ed8f640e5f08dd6f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 725215,
+  "sha256": "a28b110bbf01802eab5583c6bd00f9e51964a66f4eb3ece0ee210b391777bfcd"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 723450,
+  "sha256": "570085265e192de7e897f7f2a54afcd99dae0ed2f545ac75f9ef5256fd0bc34b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/00-source-original.jpg",
+  "bytes": 25205,
+  "sha256": "f441520d52dfa892db3d7f871c00163edc8e0fa10da0ab8b0ea615082dde48b7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/00-template-contact-sheet.jpg",
+  "bytes": 98437,
+  "sha256": "7e36ba212fab423949e995d06c8bc1cb5afde32c332693badc8001770f597448"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 598392,
+  "sha256": "bdb202f76bebce5383ed5e9ef5273d10ba7d2fc0579a20031359425007b3f57f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 262251,
+  "sha256": "a4ebe9b9f1042046e5a0b275d09fe181b44e431e3a29d0175d0ac91e7642b208"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 790736,
+  "sha256": "7f6f11cb6bccde5e411b8fb986fb74962a89d22c61cfe56cbd64cc1d3763de69"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 786361,
+  "sha256": "81e819dfacc7acfb43cc6a1a2f2a480721f74adfc49ba84d4d811df3eb51d781"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 700286,
+  "sha256": "327a9f9937ecb364349486474ef772fe7f172c8ac611c9b620d00449dd10f2d0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 570980,
+  "sha256": "b1b7ebf5918b46ec567189cbceb5aac08368c43a38c84e174e780d3ce2d15581"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 557470,
+  "sha256": "72b7c660b39bb0545ce27df665c8035ad31e04fda8405bfbfc5ac1feb713c4ed"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 564369,
+  "sha256": "599f7205f81355adbfa74891a1ccb5e32c87058bf3c1da267be43dec1f821a00"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 649403,
+  "sha256": "bf25b5e9e12a2aed4215a569573eb4e1939e7c235e4e48907465a5c3799976c8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 664396,
+  "sha256": "d7c47a60ea40ea18f01443c2259c92496c5ec12159cbce44d09e55e6100d0997"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 685488,
+  "sha256": "3e01c3e2e29f0a5d14c37aa3d1d7ac3a3ad19c06c5e87af1878a3c5d4d376864"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 664462,
+  "sha256": "8a998509f40125c3923a717c0c44c4b9e25cdaff0cefcc79a8e86bcba92cbbe0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 554763,
+  "sha256": "1b679c265c30a00aff7fe780b4059c0b2ee5baec6c65a7751e3083bfe21d8ad5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 559182,
+  "sha256": "afab08afdb86c96650a6c8c8cf75ece46a6537f66b0ed09f0fc7056661e8b46e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 754108,
+  "sha256": "da4bd505c385584083f257a8c865269dc57168619537ba6b4d0469e8be590b16"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 759818,
+  "sha256": "d02f52caf1841df0af94b5f67aa05fc9fb6b1ce1866b29f280079897bacb7c04"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/run-details.json",
+  "bytes": 34400,
+  "sha256": "91f4b43bf7cc27f8add77f6fd8d21307584e0b54632f26aa1db14e8bb8fc1321"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 766178,
+  "sha256": "b7c006999e85843c956acc2c984f284d4d8ad8f7f076e5b05a337b632c61aeac"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 765485,
+  "sha256": "ff0b369f1e62fc2e78926afe6134a2d3363a38fdf299d1d6bd9b53af356d8c75"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 734293,
+  "sha256": "a64bcd5707a56acf9956eb941d622da4e1e2d18041fef599776d224f1501a6ec"
+ },
+ {
+  "path": "01-procedural-benchmark-480/lotion2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 732235,
+  "sha256": "8f0ed8ae994d26f64707ce82a54c9244cf568fb4d51ecd9d96c582c77ff0fbef"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/00-source-original.jpg",
+  "bytes": 484083,
+  "sha256": "a9199c68f2fd81db08d1f5b439f5bd3d10cd65c8b17be438fe3252e1b9f18d9c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/00-template-contact-sheet.jpg",
+  "bytes": 113473,
+  "sha256": "d6c7e5f4ab230a60b7186e630b5a0fe9c75749aad0364d823ddee0bf5924f40f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 706225,
+  "sha256": "0fbbc3a678aa4cd71f7588b0a829734eb6ab4a063072292327da348f8ff7582c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 371566,
+  "sha256": "4d01085d44ceb9affe6d8d71c17bdf5c0cfbb43f74d84155e52e1557724f7124"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 870479,
+  "sha256": "82d612c0b046cceead43e66dd7e5a7bd505604a98e3c0da194e53295f8ad9894"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 872830,
+  "sha256": "ee615589ffca0e947bdead5993307259ad261a5276c96d07094f1f15d0046bb2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 817462,
+  "sha256": "cd4d8c18c5e872668fefe9da2069d40a930e503b03222ab452746cbaa5c4321c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 691853,
+  "sha256": "2961a34a09baea4b788ac98004236b608aefca493e753f7605a59472bfbff37e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 615182,
+  "sha256": "e265e29b455d088e0a7a774d7ac4fb01f6855f73203df3745045e305ef7ad345"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 649014,
+  "sha256": "e071fc6d4079fb7d455cd9db4565b49f847c87e2161aad6c98e7be2b17a8f686"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 718904,
+  "sha256": "9f102623a69f80e1177a751a4715e48eb821d1c8cefa05ebd3b5fa844f5a97e7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 735057,
+  "sha256": "7e917b9fa1e5f95a65432470912dc440271ad5e69a48532e88d5b181a42c0a4d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 804828,
+  "sha256": "60f526981a5aa43b02519c390ee295fc84871272dcb9b5ce16110d53b1024bf4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 783868,
+  "sha256": "b35e7091613bff8d089d4f5546561c6534623910aad9df111cdd58d00fcbc30d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 634731,
+  "sha256": "178e05d8d8d9419e6de03b43421314bfa3ed2f0a9ad6912ede006fc4d75a72d2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 643472,
+  "sha256": "b4b1dd4a310f3abbae16ed48debecd8ce705bd1264cd842a317be1b7a1513e96"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 837938,
+  "sha256": "86ac3f23ee730cdfa2231a6d54a9b208f05afb06b41a2c5f085a7e9e9be3bec7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 842322,
+  "sha256": "7092b250a9c78f31ba9887960eb6774bd4212c93723de4f43761e43c4991e859"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/run-details.json",
+  "bytes": 39540,
+  "sha256": "b7ca199ab76734ad0687f31fc1ed8ad8fe60e5ce1c0df754faa0ba40fb798480"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 873388,
+  "sha256": "6b8b7fc72dc9aee99a498b90ea274189ec382a133e36e05915921764eaec1a94"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 869747,
+  "sha256": "86ac9870bd77809f0f50f77f3e42d37be5bb53113b3d5a0e0f25bef9a133dde1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 813129,
+  "sha256": "b10c3267ecd06acb8c9e44343f02315150d2a776141ff9607b2fc4b0346f15dd"
+ },
+ {
+  "path": "01-procedural-benchmark-480/multiproduct_barber1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 811731,
+  "sha256": "fca05c755d891bd42deccd03d2c2559e937b49b6f9994bf9e021cb94e8e934ad"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/00-source-original.jpg",
+  "bytes": 115648,
+  "sha256": "e3ba3de514e56e214e8307700934261d642a0392a67f8524ac58173f97368249"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/00-template-contact-sheet.jpg",
+  "bytes": 159483,
+  "sha256": "7acb04e32bf7e1818fce872189b3b36ed9b297645aa5d770e398b78b1715fe22"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 901436,
+  "sha256": "2012eb835dd563f16ad1cef842430aa1f4a5cc426e0012db66b7d889f62bdd9f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 692515,
+  "sha256": "d53bfd129cd547285e8a3a5bd4c677eec0319b81f2fabcbb4bd474496662729d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 1038136,
+  "sha256": "0326502ec12b7089953185d334786dc96784b17a14fc347c25b239c308963002"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 1038485,
+  "sha256": "57200cbb49432ef01c54a8342ec26c9287375ab6c4bb147d886305ee272f24ad"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 1001565,
+  "sha256": "d540b402ad6f190f6c2c9b6990ea2dca69dd37c4ce3ac9779a174e0bfaac0730"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 872311,
+  "sha256": "7035e70b65b1cdcf057f6cfc904399db305a5151558f9c2ed46d31422e332f4c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 724011,
+  "sha256": "b0908dd85bc05ba9a4c904d0828d430fe5813fa6032675669fa72f38fd6afbc9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 784058,
+  "sha256": "722737c948277383047bd7429771965df6bf7948e26a62f70c25f0096542ef7e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 954570,
+  "sha256": "488943fbea80dd080dab4107d57c51cb6c8e8d0150b447068c81c7cadef764d4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 964163,
+  "sha256": "e97cb8c9c57926cb681cdac4dd1d4ca8447a0407b2da3899e49f945d7b34279b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 991273,
+  "sha256": "fefdd83f12759f1202e7ad82832249b768f953cc491603a1dade7209829f66ee"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 965020,
+  "sha256": "b4c5f145acbee2b7e443522c63a13889102b6af87d4ff1024c7fe8caba99b6bc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 781832,
+  "sha256": "46ab0c928767b1b983d257bfd10b789fd169674d3e10547e6aea524bfd7ebfb2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 793419,
+  "sha256": "627daf2f848802a5ac0dbf519c8322974f72d4ba1c4831824f46d153a274023a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 1057368,
+  "sha256": "50e121332066785965fb7ea585663b93a97d368a5998392c7c8fe1ccb728cd76"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 1069027,
+  "sha256": "5de0d7d22cf832582e50b92e329012d970fc4bb1554d9eb2f6a671ec1b1b1fce"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/run-details.json",
+  "bytes": 40859,
+  "sha256": "6ed34f7f7f57c3a0f537717a676b3ee034f86faee1af867ccca56fbd127ef097"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 1044896,
+  "sha256": "babfb450f9718e29c5821215a4df371f0ffa534e713bf10bda36eb3de0d1983f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 1049955,
+  "sha256": "b6227b80fcb7f6c4d88ae9b5a2ef6ea18fbc7d81c50ef4872054ebe7b66f834f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 1016465,
+  "sha256": "ab463372a43dc1dc2ce8604a48c8dc79f18cc3995da21a382920454ed80142c7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/perfume2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 1014135,
+  "sha256": "5d03b43e81b414ade26d9c7fc567f54539a081df704c0c34b2a203fd16ba475d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/00-source-original.jpg",
+  "bytes": 226008,
+  "sha256": "8eb2599c0cec18d1d0d8813f59344331d6050174ee4d4e385c21630f72eae249"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/00-template-contact-sheet.jpg",
+  "bytes": 127425,
+  "sha256": "5661e7c9dfa9f7eb292131bf1b0bd47739b3255c4692d15f6d59e143293ab64e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 874360,
+  "sha256": "0f5c1f06c04d510b0801350e4166cfd19ab2ce25499814153ebe3e04a47edc21"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 674859,
+  "sha256": "9b3a2beddc76db9656d714a23da0b143d7b2abb37519cf93ed2fc0fd7c727369"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 1115717,
+  "sha256": "93e8a35ec25084fc095086569150f55c1b9bafa610f8dd487f140c7275671cfb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 1045233,
+  "sha256": "0296a11fabbf35a8d758023805126b5d589f255474de7ccb7ee6d8d1501290f5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 1054888,
+  "sha256": "327daf8f570b6eefcb1149762000ad131c49bebd87b4330fdc1a0696be7c8413"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 843241,
+  "sha256": "377bbcb13bb6f6a7d9892a1c20548ab12f46949f558fb49456838f541e6ee227"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 662511,
+  "sha256": "2018c0ea3022bda7441c539998b14c2f24ffa7502ba167a0e9b9b7eb86467d8b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 721264,
+  "sha256": "a8b876305504ce54a2a1fbb1010935e07979f2d61fd8172c7d8f38cd914884f2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 948697,
+  "sha256": "121e30b57d96463198a1ff21905e8c31d12bb503fc09db0aec9b04f5f6cd690a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 931777,
+  "sha256": "2dacff87b24303598c3fa24693618f119c63bd2590e6a0a3bbc1964ca6096e28"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 918835,
+  "sha256": "9789215e07a45a6c13875b3901f5087d613c0535ab37f0ece8c3d9bf3e2079e9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 902258,
+  "sha256": "ccb80945e0c72656fb5d6aa2be9799273abc72b52d9d466170e15ffb9fd1ecba"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 701822,
+  "sha256": "7425c7f9aa0f3a9f34c60daf0e3a286973921004f1a52587a467f699f9231591"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 717965,
+  "sha256": "5117c0e8f3884be43b8b5b67e38e174ce02c0dbbbbcac67cc5b6b372b8b4c017"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 1039993,
+  "sha256": "6c8a5577a70ce8a2a65291ae0fe0d9562243c1de29315f016870877103f97aca"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 1021445,
+  "sha256": "bcecde0ff51c89a7099c20b18f66cda06603e58d748f07956da09223bca08582"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/run-details.json",
+  "bytes": 35838,
+  "sha256": "2050d7ef96bf44925df41ed9273a7317a06a907ad2fb8423f5da76d7996724e8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 1027056,
+  "sha256": "b46e284d5ca4997df19b22f77b9b8c01013a320976047c090c26b67402c7fd15"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 990427,
+  "sha256": "8aae118bd9e201cf893fc5417891e1e03ae72bff112904baa0aa645e7480f3d5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 1068572,
+  "sha256": "a80a5ddb81699c91f2e4954e1fc83a26d3328306b371f756cd2df59d6816faf3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/plush_boba1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 1066911,
+  "sha256": "36905d92831aae2a5228be02a4013ff4b26b89ab32a58b4283d94643ea117738"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/00-source-original.jpg",
+  "bytes": 15139,
+  "sha256": "5ca78137e146e055b656e6930c0e68be7a4f6697566013793e6db6676df6886e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/00-template-contact-sheet.jpg",
+  "bytes": 89312,
+  "sha256": "7f40027846e09b96ce445caa9e4e78df619b462aa73a44ad7409f19ae9b04de5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 559370,
+  "sha256": "03a116b5c4229c512badd6300709d7627bd5ef859e47e018d911c1020a6c5848"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 225215,
+  "sha256": "8579aebc89b913586c0ee8d4b0ccf8a731758aa70aa16307160306435a5ef614"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 749466,
+  "sha256": "8576ffe41cb96b28f10b4a36e05bca13372d3e87f31ccaf263097409f4653557"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 745478,
+  "sha256": "161d3c157e852db6be55b2817227fdb177408d918c3ec6b7f1b44b7fd0ca7e3f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 663405,
+  "sha256": "1d6825412685515eb3d29619c136f94445533f40a8662dd4abc17844bbc8e06f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 534569,
+  "sha256": "2da4cc886f69874f6724f30e97ca1c48f9efc048eef299cf0abecd4650433978"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 538761,
+  "sha256": "e90b0358a8756e7cbf397035db023bfd8c264a8f3df31d63d91beffb2791ff1e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 538249,
+  "sha256": "104030dee173db2ea4308feb0df8226a1753a874893a6d55edb2683594841e3b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 608525,
+  "sha256": "6631f5e48bcbd5000ae18bf9de521b1b7d5cefe8ec69442fcbe6b6f437b51ad3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 624075,
+  "sha256": "647a42612a0470850f79f4d67681570cb4b6411c886ae9a6dfcc91cb85657c69"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 648174,
+  "sha256": "914ac5c99fa7d585bbd9900ee5ad9f28c8254e11c0dd2e1c1c0f278ddc0ac9bf"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 628303,
+  "sha256": "092a530b8aa7834235008d2aac2326dfc76327f70442ad83fcac3fcac38a4e21"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 527070,
+  "sha256": "0b3828beb9965b03fc803730febb66e60802d8eb69ce2f668fa042f78902335e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 531058,
+  "sha256": "1ead47272352a280ab6f20a5aee502799c55b4d8417bd149134a1a74f564ea90"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 701544,
+  "sha256": "18297b98c9b3cf424429f6818c56f1469822cb7439e977de1d8b0caeba5cd1f2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 705210,
+  "sha256": "18df4911136ea19e6d24b7b1751ad18dcf053232223497be82263d6dca22aca2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/run-details.json",
+  "bytes": 35038,
+  "sha256": "5596517c961778b6af2b974bf238f110a7e4a2c9f7a96b5b6f360f35ab2fac0e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 725775,
+  "sha256": "9f4f78c890d552cae11148f8894c9d9835b8b84d1f18fad5e7f3a1565450281f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 725484,
+  "sha256": "77d78b2388c024353de1fcfccae9148d025870ccb2d21dee04a4b5de3d6e50c0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 693531,
+  "sha256": "352f095c1bae1e8bb5308e5811064325e6a344f15d89a95fa16a469e6fe649af"
+ },
+ {
+  "path": "01-procedural-benchmark-480/shampoo2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 693350,
+  "sha256": "5dc3c59e4d674a84eebc26819149bc365d15904cd59dc46f8abbc9aa722ed436"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/00-source-original.jpg",
+  "bytes": 23601,
+  "sha256": "be560d797faf9a4e570e732f7020ff8780c3625f835720c0c9370a72dc090ac2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/00-template-contact-sheet.jpg",
+  "bytes": 83996,
+  "sha256": "47059c42e015dc0324a03fe2979221b46e8d79c194616477895a80f9899bbd81"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 598110,
+  "sha256": "c1fd6dc6f75839faa02cce26c099fc61abdf9770745baf5b596285cbcb760266"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 230090,
+  "sha256": "9be7e41c64707817e82d4f4efd996a2695b286abd12aa5d515f2ec233e1e0be3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 789816,
+  "sha256": "aaba64bcc97cd5646a1c62f404ed997b15a0ed7dc2b1c66be1d170107ec820fb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 787453,
+  "sha256": "3d18d8a0f9611ac688f807118da50e4e72021e8eed976e8f7825c0432f3cb085"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 693611,
+  "sha256": "ed48ef9886a69117652a3217b380e8c1f8ec9e4770bd57e129b3fb4b811c80d9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 566299,
+  "sha256": "bd24e802ae8ca8ef10d9ef4fb0457469002ed5c3775855ea78fc439c2d25b262"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 565640,
+  "sha256": "8bcb476955ff4c0428617e6af638ee4cc7bf3a2d701ff75e9dfc5a6374dc80ca"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 571594,
+  "sha256": "255b5a81c6e6220fcf105565046f25ae980fee361d320318fffd0c4a72e3771b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 640705,
+  "sha256": "e226d3e52c49bf378113f364f921da35760949eeafe7b2473560ef55bc7e3a0f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 657902,
+  "sha256": "0120ab426ad0a0214d4bd48eda20f8d68553c9c2af0d3f57ebafb9191b4b7abe"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 677512,
+  "sha256": "2d41ad22629a50e6a285a2b4dfc4d67d28824f1d061fa3af659a45ac70655893"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 660185,
+  "sha256": "6bb5bceb648b4630d7dde2d0f0c8c8301d78187e62ccf7bb98cddaf04052a12e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 560330,
+  "sha256": "7dbce887912535550ed41605438c1fc7430c709bdae22a944f141ab4229c6393"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 565103,
+  "sha256": "05bae3397c5e7116e9a2c5491a012daafa5ce334b90b70fcc41cda8ee10f8248"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 735140,
+  "sha256": "7757533ec5abe243b32ef0514c0ba599f327272fb95f2968cc54602f74efcdb8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 737258,
+  "sha256": "f9c25e2a85239a88883c80d085228d9db923583e0e2399f0dd202310d334a29c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/run-details.json",
+  "bytes": 37971,
+  "sha256": "082dc51975a541f922087dd17c9e46a911010a8936d94827e5c5370bae09af7f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 762639,
+  "sha256": "f14b1e30c7600268f54579b9f5b4b7bcfd13d83f9bcfe60536e315e10fbb9839"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 761596,
+  "sha256": "31ad8521e5d958eceae6a4f27677072731b0198eba04b215970e6a9912abf3ff"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 730773,
+  "sha256": "ef1b1c8e91d3b75472b6e38297d3d9cddabf710c27346de35411bc14af42483d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/skincare_tinytext1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 729420,
+  "sha256": "1a2f4478efe21bb30687f1181c43ba2f023ffad87421ead1e27b4b2d7af10a44"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/00-source-original.jpg",
+  "bytes": 47312,
+  "sha256": "f83df2ea9a9a9925d2bbb7ff1db50303fba6f98d3498380df409082fe78abead"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/00-template-contact-sheet.jpg",
+  "bytes": 117754,
+  "sha256": "01f5062814e380d0fc823156bfa628cf0d3d04018b148216d61b81c7a5f1d479"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 746602,
+  "sha256": "039012e28d962eb2405ecdcda24457601f795e14d9a4f440a5f394816872ffb5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 415753,
+  "sha256": "470e08bad464985b82ba94053cb9b0ef9aa843b977b4ede4346d619dba6c4178"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 938164,
+  "sha256": "1b85c7bf1c7960868f9ae6feb569684aa9b19d2a19ac30032cfa848a1badef35"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 936382,
+  "sha256": "9e2263e679f9b8a43481b659721fc2ba585d4560ca17bc36b164f87f27852c9c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 849386,
+  "sha256": "4ad0b46bc2b692f85dfd0dfbde37ec023a06bf9d97b4c853f6ece973ff5421b2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 723651,
+  "sha256": "fa7204d0613ba45744c214a52f96a2d6f55979a02f6384f28f383e98d2c8a0a3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 695808,
+  "sha256": "eeae4cd9b64badfb657dafc967a6d5de9b5e9e12d0aaba6c946f262c5e5539aa"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 723466,
+  "sha256": "5e2d2b33c6921eddd8aefe40beda736e1825174eddec251ab93e08900922355f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 793309,
+  "sha256": "0208d116a7552c3871f479e8cdc615106595d19373612727adc69d54c70efab7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 809573,
+  "sha256": "8b2f7c1b980a0d1468ccaa15aab9440f17473aa6c0d4563ab6e742f76319e6bf"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 836258,
+  "sha256": "ea699022b568fa52a497fa2c9b5d2c9fe941f914be7b001f49dc23be58135856"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 817032,
+  "sha256": "da31c30a44410e146f50605be785219943625276df45c4bba28412b51906ee71"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 713567,
+  "sha256": "82ca25b488d528a7593e2b44105f3c474ac27a98195422c6f7dd9bfc417c9aa3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 718399,
+  "sha256": "77930c2a29f72d7c422248d14c23e038ef5aba9fc6f63c4e8dd17761caa386f9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 893497,
+  "sha256": "4d1c90ca7f31cab83e855fe4b56a4b53eda8a88f60b4ef147b1813a786bab228"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 898754,
+  "sha256": "b5ab19a1d9906bc1a33cb25ab45724011528f19c2e308541e8279f750c7bd5df"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/run-details.json",
+  "bytes": 37231,
+  "sha256": "78c583dae6e3eea50324951eb96cd70cbd8c62e9938df8302c7dc1f24dcd26f0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 914001,
+  "sha256": "e4790a65d8fe449cb5fb62623838e3943dfcad5c7872008f22ee5f5a67b34c12"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 914939,
+  "sha256": "edb7f0e4f66705fd9b34a79c44f8763e926cf6cb818415bd79a47a3a9f67e86c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 881793,
+  "sha256": "b5efd12598e3ceedbf8d1a8f9025c68935fef3b62736958320b1ce03f568404b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/snack1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 880103,
+  "sha256": "a762923d049cee9caed0367c7ef7d1945c667e87b65078944c001516a6511868"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/00-source-original.jpg",
+  "bytes": 17085,
+  "sha256": "6a3426c4f2864f85a0ba70545c83b7599df183210c571734fde45bb36795a11c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/00-template-contact-sheet.jpg",
+  "bytes": 83786,
+  "sha256": "b073788ce90d00a2b36774f9e55ebde21f51a4e3bec9d5e9646bf57713978fe6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 594773,
+  "sha256": "8efb99373185e059d2b1d0db803e26959245aeb0ff388670281f5cca6c9e8efc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 248727,
+  "sha256": "3b866fc8cd2afd1ae206b14c524865f30d0a4e4b9f6ab622927515e51dcb5d38"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 787308,
+  "sha256": "48b39baa7f521091f6d1a5f0f7ecd2e333d0c0c99f8480fb3053e66ebc816d9e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 783862,
+  "sha256": "a834d1fbe3c2d29d58911b9024ae9e5ac0a612a9b3281df18eb44a1f67e274fe"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 685831,
+  "sha256": "3300948187a7349ce052555f7f1c4434cac0a13ba0f3de3cc7fb18f96bf8be51"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 558419,
+  "sha256": "fceff4c5585cad39bb55c19c04292a14aad68e2c313349ea5185a0c7090a8ffc"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 566226,
+  "sha256": "12eb304d63347857a2a1eb8953bf8fe502b4397f9b0e54ce14161d3097598ae7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 571715,
+  "sha256": "1bde4d7b8e6d27d4b13d0eda7bdbb95cb705730c7e375925ac00c761ddc131d2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 646114,
+  "sha256": "94470f2309f932524de92b5cdc2df11c48b404028df0ac534a2acc45c6643aa0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 662636,
+  "sha256": "fcf95648d4b86b9a2c841a3a28d93002a625f0b1b3327bb9752b9cd4200e495c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 670160,
+  "sha256": "485c77efd5e286cd3b791d947d7c0d6ec15bf58f52984f6098636cc3da5525d4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 654406,
+  "sha256": "30c1ea39ea6e5d285f36be8d87092ce859034be31ea532f42cacff1b99ba52c6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 558518,
+  "sha256": "70a2880448232814db207cf2f0a2ce811161343e0e70724b2bcab2bbb668e4c7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 565941,
+  "sha256": "4036cb65aa4b1e2487fbb16f4ab729daa5aa4b0c2df77f090585ef1bacae51d2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 746914,
+  "sha256": "eea30dcdec243279ef891f5ccd8ea671991ca2c327d95cc3f9900d5eee4bd832"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 750164,
+  "sha256": "7918a7f707ec8766b0e43eaa3800d1598adcc8c42f6f050b3453e9b0c2b2f6b3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/run-details.json",
+  "bytes": 34520,
+  "sha256": "e2189f65ce0cc4ed599c143cd82ece9b868bf2869d4b9ac0817bc15c3bc41b45"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 763398,
+  "sha256": "cf40457cff8a99f0a5462fcc9c63b7bc0d39f386d52bd7798d1b155e1c85cc1c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 763790,
+  "sha256": "bc6bf6f5eb3471d382ca740774bb7d6411de8a57c126359c4d559466caacc4d0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 733467,
+  "sha256": "30406e397d6035cd9aa9cb0f56cb09f48a8316746ce8fa7cc267b6605e940c02"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 731121,
+  "sha256": "2277c86dbde7bbd645c34998ef9697ece8ded4cf3c8a3948b080ced36523382f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/00-source-original.jpg",
+  "bytes": 14787,
+  "sha256": "e13d874699dc5067f08bd58a92a76faa722b67b8c70a2fdd5845442083356beb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/00-template-contact-sheet.jpg",
+  "bytes": 80372,
+  "sha256": "1c5ccebd6bbbae1aac16011436f0baa2459741e999b6d58ddc82f4c0839a43e6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 585597,
+  "sha256": "d10a19e6973cd6519e1d0ce1ba8ad6224cdea08c5e08af9b60479abbf6e0e6a4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 226428,
+  "sha256": "fafd780ee0b8c7e42512ed5cfc6a009ef39a2a2ac2b3044ee90f4a9256f1621d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 778909,
+  "sha256": "9f5ed604dca41dc38fd5ae831b9f461ebe7cb07af7d643201ec0b424b15017bd"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 776589,
+  "sha256": "828b69d38ed5f0551945e8aee9b1c33213c6436e58cbef02265ab11d7c7686b8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 675974,
+  "sha256": "417ed79039c9d5f8e181aec04c40b017bf8d0a3b7e6da00e589ea8e746ac69f5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 548912,
+  "sha256": "e742ebc664eae84b0fc5fb93657c5467076a6371ea73a8085fb6a03e58553bd5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 557929,
+  "sha256": "be41993df47288cf32fa7360537b34db869786d81cd5697da0b08509058f7e48"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 563419,
+  "sha256": "de33f6c72116a4f17391bc39141bbc854ea1565ac1ebf610b532aec608ab6081"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 632969,
+  "sha256": "96ea3bce050e7297ea2687ff97d1e5c2a99c260c8fd5527c600f8ce2381dd849"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 651674,
+  "sha256": "7568ecad1807858090946b1f61581a0d486ec63d8d4736bdc1cb961597faaa5e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 659320,
+  "sha256": "b0311396a8d60d72661dacbd252374cf1fa5b7472da0fd3e19aed52729e73824"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 644998,
+  "sha256": "db4f6ad05289cf29ab3b8222191f7efa4e6f53ddeac9bf24c6e19f281ae44ffa"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 547833,
+  "sha256": "dd035411ecd9cfb7783e93bb4a2106e608da469b708d78f32082498a43d05bd1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 555589,
+  "sha256": "9a0752e6e082d243779a4addaa6815b0d1569e2137cd1b4215203db650490956"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 733898,
+  "sha256": "f25314b23c811da380b30885024043f93b241c4a52129bb52aa2ae2aae969fa0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 736522,
+  "sha256": "ed296bde026af55c98388d3e9c6861c6711ca54f097e77e29faa78aba4371d56"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/run-details.json",
+  "bytes": 34519,
+  "sha256": "91c556c42f9755130975d7f7d5d8e219cea0110ed4e581c926dff726d6f5685f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 754371,
+  "sha256": "a0713a1e76c4d8ee9f605eedd2c6c7f880ee35163cf833217b5e0335ececac00"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 754181,
+  "sha256": "2cfd6ebcc727cdbfc3e8b3f57c3612f8efa3ffa5c04d7d754a51e735bef4710a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 722520,
+  "sha256": "2dcd46bb8208114ed271e561f29681209a9f64949dda12021d35ff4836e58ad6"
+ },
+ {
+  "path": "01-procedural-benchmark-480/sneaker2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 722696,
+  "sha256": "cfeca62d6d486c2d0606bf83983fec49c5a524b7f9e7e549f24e705a14ace6b5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/source-provenance-historical.md",
+  "bytes": 3770,
+  "sha256": "df5da291b5040417b1b52551057d8c09c0f442ba9cb3138a30a96a6a68f011b4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/template-settings.json",
+  "bytes": 6066,
+  "sha256": "83a1b9784183809266b16670ccbf5fa14b6b959cdd20e9b523b8b678f0b087a5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/00-source-original.jpg",
+  "bytes": 66405,
+  "sha256": "bd37f570e2725991e464bf9a1f95619dd0401210435034a7f201129560766c74"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/00-template-contact-sheet.jpg",
+  "bytes": 114071,
+  "sha256": "c22e12f268cca02ebd85def94bc9de7666390b6b945db63bd36617b640d647a8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 667488,
+  "sha256": "c0b4f67d89b8a1e4d8dc7686dcfb943a6cf1b856958d631abf7956dcad96f53d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 329398,
+  "sha256": "a598b4c091fcac341962ac33227fa41b3997468a7bba8136d95fb7253659a50c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 858899,
+  "sha256": "53d446cc5185c3e1e8243cb352ad464838d21d6f3935a3929d5c6bd959a0ef07"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 852695,
+  "sha256": "2b64496b87e79ca79d24afcd9c2d666cce76a75c91d71f18fec927ab087a54aa"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 764903,
+  "sha256": "c460d2e4aca983c4f2e31f07edada2485fa45ba696e4f41077cdc57720218654"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 637769,
+  "sha256": "0dcef947efb9b5143c693da028b8aa1cb6d9eb482eb69d454979ed74e182e687"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 625884,
+  "sha256": "d2d65079e3766923a5ea4363b35f18c5f91cab4816957081fe25ff01e53fc270"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 643929,
+  "sha256": "696f3995a288104b517ea71315556d4c9864cb845c7091c42d9533ce605b1f28"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 712850,
+  "sha256": "55c504fd864be6339eb4f442d892e61056abd4b3d0e20e8c7fe82fdb88bc1a60"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 729303,
+  "sha256": "28c787db561e2c54cedb373889049e68cebd697d73af33e032876c6561132322"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 750635,
+  "sha256": "0d867a911893043cc0fa457f4accf9fea1edfa5aa28dba4529903bcd187e9e7f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 731438,
+  "sha256": "7c74d90acc9e2c40db88e1d8e7fd60b137122be082f8e7a8daf0ffbf899466c9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 626281,
+  "sha256": "30fcbc1e6c39e628dd67d3be31dc439bb62ef1a4f94b97b8f2dc9df1034f82a2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 631550,
+  "sha256": "f30450d97e3738f895c0bb38f7952397a914f4dcac31157558437b31cd3848d1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 818378,
+  "sha256": "7b6637cc2ab0a93bc0fcf3a5c6ea00b1e7d6a7157766a16cdae326c36d892d91"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 826055,
+  "sha256": "c7411bbc2afaec38c6f88b30a2ba501bb8c09781829f45dc85a2ed020ea2b4d1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/run-details.json",
+  "bytes": 36689,
+  "sha256": "bc082c96aec4356f21cdde53d43be6674d089b370e2b3b212b6f0bb9ae740a5e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 828853,
+  "sha256": "29789d351ae21952f657648814e3d03adb3ccabc24fe60da990d811907cfad54"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 827577,
+  "sha256": "78f69b402f206e0cbf382d090d675ef32e0625e1d5ae23cc2208810addaf5dfe"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 797697,
+  "sha256": "1a50c0368f5b4bcd016af3a03efdac352b8e39c104a9fb981f494f3330df699b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 795550,
+  "sha256": "da192b4becc3c81f58e062c600b7076453102c9b701664bf0773cf2c8e35391f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/00-source-original.jpg",
+  "bytes": 54675,
+  "sha256": "360b7a4efdd0465f0a5e6852f15329aa531493c274061272fc3580636d9050c1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/00-template-contact-sheet.jpg",
+  "bytes": 91092,
+  "sha256": "96be805536480eb1b6fb28c43464192c381132749f0e02cb1404fc17b49c561d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 655808,
+  "sha256": "f7ca94375b05f80ffd8859c059c64d4282d55f318df8000df36062938eb4d3f8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 284714,
+  "sha256": "e08c95f66f3e54d4648fb44e5031e17c237e35eaf830476dc2be9b2785a9f1db"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 850659,
+  "sha256": "8f73f0781656224e285e570f168c520ee26188eea56cb52db2b13ce882918894"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 849221,
+  "sha256": "26f41167b31b39541636ac7067baabbf46f3152e42efa03a01bc6892ef7b9e28"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 750022,
+  "sha256": "f21c35aef9df01117f1557cf047bff95b9970fad30c91e48c354d1d9206a26cb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 622343,
+  "sha256": "31863c3575d92635c8004e34e48a2c942c20a8d1933b903dfa71f450e78f13ae"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 631906,
+  "sha256": "ca8f83b7bb129c89dc2adb42a54da9cb762a806789672a820f54ecd3fb2ebc6e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 636117,
+  "sha256": "dc67adcd7ec8b8dd76a4dc8e27673532cbdf28221d6c392a3bc7b78f28021494"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 690947,
+  "sha256": "54bc64d050fd9f32bfd2007fbcb13e6520ca9d91a724e1d3a1746309105944c7"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 710634,
+  "sha256": "1e6aae7995496b9090a71feb6c3dac463effb9d13ea2bb86a9857ea38fb655a9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 732528,
+  "sha256": "0993e789ddcbee4fce62df83b73c1470a7cb9ba6f942514652f58a9a2e1457db"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 719242,
+  "sha256": "42581cfcf360a9478e6b77136fa8ab5a0c83025d4ab99d4772909ea0bac2ea3d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 620818,
+  "sha256": "c6d453822fd78251cbccc6dfca8f4a9b3f6a8b71fe4dabc14bc75edf8e32b191"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 628180,
+  "sha256": "f7bf7c78b7daab6e9d403181d862f9f41bc87f66b60e2a2ad71fb6f02b5427ca"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 786257,
+  "sha256": "13b8090a6a26428aa1958d491971cc914fed40ef0eefe024d3e3eb9efb91c2af"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 785528,
+  "sha256": "261e34e4a6cf0f12c0f64d6bef2063fcee4bc992885678bf613446ac0485fab8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/run-details.json",
+  "bytes": 35640,
+  "sha256": "91f1b639370cc892e91cd5b3a44de781929ebbc9577e5abef9b99ac0ef7ff8f1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 822542,
+  "sha256": "3462cab98f88a1323bf64cbc225eb5b12e0963fbc1f7486d1c9ec27f3fd10cce"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 820975,
+  "sha256": "9481a0c280490a43cfb26134fb2b46db33aa2bdc7baa378a7f642f54d17c1724"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 787925,
+  "sha256": "d7306aafcf78bd39907bbfc3ffc5c744a3f937d12c640fbef1fdb744caea84e8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/tshirt2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 785966,
+  "sha256": "08e4b88f466fecf9bc3ef3b4e87869a7f6817a8d734819b0f1186a49fce2b135"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/00-source-original.jpg",
+  "bytes": 88213,
+  "sha256": "756a34cd9e83f18aaf7d7223fa3527ac03ee4938e7b1a7cd8872951f53d02814"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/00-template-contact-sheet.jpg",
+  "bytes": 165387,
+  "sha256": "b8b0d706297185f7ffd5b69b44976ce3bf1aad56eae44611f6011261fb7f0746"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 891108,
+  "sha256": "eec105f232d06594b8084c3eb6c69a78f8f19b297e61422dada308fdb06fe74f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 645088,
+  "sha256": "4fe9862dc786789ff043fc3552d47275d95f7133c0211e39f5fe158b67a2dc30"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 1062599,
+  "sha256": "3c8e6af669733532e860f942708ba41686a8e406c262cce8626a8cafae93c47f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 1056207,
+  "sha256": "415602b75e37c6b8a18d1af72501c2536c64f2228998aebc29e360d75fdbce9a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 1007936,
+  "sha256": "223fa115c062d16c9e20e2a31d19ff924221a2be452bf921ca112bc9a12a1601"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 881903,
+  "sha256": "6693cd15fcb301c2c48cebd35e586ac8d4523c7f6f28c3b77232019f9104908a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 695256,
+  "sha256": "f7562f0fb1a75b62ab891ed577940182840b44d7f3e6ede5317df3db26f703ed"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 751912,
+  "sha256": "46cb229d9061d3c44580177fec96a3b503eed9900f7aa0d0c45206ad20d26960"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 947101,
+  "sha256": "089dead6d71b6aecfff7de9103aabdbbf875c089feddc6e687635f645c9349fe"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 957870,
+  "sha256": "da294617faa7db84b1a89eaace53db07fad669f48d61d8ca6db3b12a9e9fb07e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 949293,
+  "sha256": "31bd9957e44f7c55930aab1ddf7ea7693cc6a948001bbffd23ec90e7def5674d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 930365,
+  "sha256": "79456298fcb9a2111d5cf69f02c1fae1773b6ed6e9a2131ec7f992bab35fddd1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 738535,
+  "sha256": "a1b9924fc6c6a402f7f3e8321ee10070f45ff63a8453ac3a617baae7ae5c3694"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 750985,
+  "sha256": "35a21e228d01fbd1b7643d913e4f20cbe97192a0ac3d47cab2f36e738dc1d80b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 1032802,
+  "sha256": "5c28cf9623034a1bf4651b07c9f710e6f63d8168f4b5fafad3f77cd49744c182"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 1016903,
+  "sha256": "7414ef278a01633ad9ec7145cbceb4629610d9d4e1fc479e0424d8a993f66d07"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/run-details.json",
+  "bytes": 34360,
+  "sha256": "e1b92560dd8b6d89e9f823d53b8c14afd3caa2d0122f9175b71839d46169f5c2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 1061797,
+  "sha256": "6eb7e2d88602fccc9b565dd0464ebe9821dffb4c1ba893d6fde2059e207ab9ad"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 1018614,
+  "sha256": "64d376d0fc87bebbdab6ed715db26464a46d1224801eaa00d1407a75df39c0db"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 1023994,
+  "sha256": "333f475e37622ebd6afad97b142b3c57da8985c437683dfedf085db77268f089"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 1023436,
+  "sha256": "f0cd9dda12473158538b432a44af5686b1bbcaed945e41ceda344b2a4d23a868"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/00-source-original.jpg",
+  "bytes": 89506,
+  "sha256": "3fb02f9ad5b3dcbc6cdc363ab25f598f776abfb6e8538ec4089160d5f5b9583b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/00-template-contact-sheet.jpg",
+  "bytes": 133093,
+  "sha256": "6ecdd4a32c2f994df154a28cf835f4672f5fb1dd56c18e46008c6a9956e62dae"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 825958,
+  "sha256": "72a2c02b4d377a9e91f1bd113561a1bc42e305dc274ff7916b560c8d14d498d4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 546434,
+  "sha256": "6755ed8faae12f3c8b7be2e8d617bd2a6e4d73022b3e5cd384b53e795f5683fb"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 1018986,
+  "sha256": "1c4d4cd6c8b98763bb36a67da286c983330fede61374dd6d1699f5d569215f35"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 989020,
+  "sha256": "0ef815d9eadf72ba06c18cd6ea685d15bb17b6e0b7d393af1d609523151b29b4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 951137,
+  "sha256": "b1cd8bcffdc5728167244f8e4721802495d14d9e8f8eec3a75539dfbd375d798"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 791350,
+  "sha256": "82d927dcbc67a2d732c4a825a1e06eb291527650f8c254eb37729f8dd9d99138"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 652630,
+  "sha256": "616f134269944fc9715afc87f863bf370ce6ab800e5e13d66dcc92634237eb0a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 697817,
+  "sha256": "62adbc62e9ab854c5ea65edf1d5d04a6bd406687555d192fa1e4831f6b82d736"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 875170,
+  "sha256": "c438861bfa48ecce228f3b730232df2fd96eb81894db0e87ac4f364357ae97d4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 865161,
+  "sha256": "e5a86153960dc58d9fc31fe7501c719826f40b90f1242ab7e74b3610809dc369"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 875835,
+  "sha256": "068f3cdf4a2c7bbf609ce6e09f58dd8ba7fbaa0af4ab20a4cc486f6c1ef8b317"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 855910,
+  "sha256": "81869752b08c7ef33dfc69a7e30d338c1d7cbb124ed2c987e523a182b46b086d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 681364,
+  "sha256": "4c216ccf77fb0284b038231ba27af2a0eb5a90811911a6d29ceee10a3095c1f2"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 691972,
+  "sha256": "49bf539b0eac5924e006e3f4eb0ab902db38c5b47988664ebcdf3add2886eec3"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 942750,
+  "sha256": "e7ebf810d0637efb1afaf655ecd9a9160eea119f9e2a4babd83507b72d1452fa"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 927359,
+  "sha256": "d194d3ddef82b577b8bd6e7add197a2a19b06ccbb6e58d1c4db457166f62b657"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/run-details.json",
+  "bytes": 37636,
+  "sha256": "2e1643734c84caf8711d3a7f96c5e7492f81483adfd4088f51ee13ddbaf09231"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 974372,
+  "sha256": "ffff7833d7c56ea667a4bb0077139141774e8d67c6b94df53077f2a8607858f5"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 946185,
+  "sha256": "ce500d60d39294f1285b08991ccccc694a9dea7feab5ab21c0391c62a6f3226a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 1010268,
+  "sha256": "e63b53e28353428d727381b89ffff33d8ed22e7c41c4aeab7dd77cdac2321ce9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/watch2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 1010590,
+  "sha256": "ed979ba0ab7aa5404ae646cb741c1c83ef386be6a58c60c0e7c5bddc5dd6b77c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/00-source-original.jpg",
+  "bytes": 19122,
+  "sha256": "facfcfac37bab43e4d671675142ee551c5c1fb72d0a8ddf70506129fa8ec8f62"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/00-template-contact-sheet.jpg",
+  "bytes": 86356,
+  "sha256": "b43e658f64334a6953a09a6031d5e6d100078b3e6f254d6654f0acb9fc244973"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 600731,
+  "sha256": "a001a5621345637602f2ccbd33aa1f35ef6ec465d5f9270728351527646b2f68"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 237648,
+  "sha256": "638f3a3fbb75a8e9b541aac1202b997ef963fcd637b32764c592449fb88c1229"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 791601,
+  "sha256": "adfbf2a4d77961c4512dfefbd7a6f937549e297ec3c94ba5deb14ccdfd979827"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 789061,
+  "sha256": "d9e380c1c1373f631dca76f95791a2c91053f20235b4338a9f4325b4a2ca77dd"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 698496,
+  "sha256": "55650e3052a8e8e9bcac5098d1ea5e762b980669677d2b7ce2567c6cbc70f86e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 571290,
+  "sha256": "c686a0bdd287d5392782a337e6d62d10d0b53b5b7796c56b8f8111f0f04820c0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 565115,
+  "sha256": "50826f18165027b42286bc2bac87cadb1a3b202a82a69d2d569ba26cfa7d45a8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 572271,
+  "sha256": "5d4f130262d22ac429cdeffbbc899a19b16d46aae62a6217a50185d8e5bae62d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 645775,
+  "sha256": "1693997eba257527e552fec79ca7dfe9962cf439dc3bc1b5b05d28d3a6bafd8d"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 661492,
+  "sha256": "a783e5a0939053ca1cd20d2dc3df8dd13931ff86d7c3f688a1977e7b50b7adae"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 683802,
+  "sha256": "77e834d2c73da0fc2f3da28ec68f5b20c6cf3f06d85458b6d107ddfcaf77e6bd"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 665709,
+  "sha256": "78429269f118d0abc807e2a4f75e443f2039a66788bd725237cfa0e80ba81e2c"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 564071,
+  "sha256": "e2536632a5c34b07c26197d82d3e2e8ad73c1a8c99f5a0f7c012a65fcc4a5535"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 568452,
+  "sha256": "69afbfae27ca7276dcb523105a81ef3148c5ba89760cc3267ed28650fbcd6da1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 740191,
+  "sha256": "f346894f902ea672cbd5aa0a07ff1c6879a30c378b8e0ac36a98819ce0a7303b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 742696,
+  "sha256": "7ad1f4da08a9d9245bc54fde50f40f90d70a05ea77d2f776496c101e99f1e294"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/run-details.json",
+  "bytes": 35609,
+  "sha256": "93eaa793e437c3c787adb49b5bec45030c17dc446938e9f4736f4e88753025a8"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 765738,
+  "sha256": "ace5883ddf43af12d6381a65da8a4607788d8a0cff4e511f3e0235d752c65a95"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 764486,
+  "sha256": "9e07431bf534d11a817a9e513f807ecf7be834b9b160ca92bc435a58e64c17a9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 734737,
+  "sha256": "cb178ff92f40271c8225141ed9d2a49e47f22288a3c2f46d4ad0114cd3e57f47"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine1/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 732762,
+  "sha256": "0fb77262b408573f87b9a6da3d3b3495b99236a55cd2108e3b8704247c309973"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/00-source-original.jpg",
+  "bytes": 39865,
+  "sha256": "438be98a15fec89c3b9fe98fae77eefe77718e202afaf169a1e9009569355eef"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/00-template-contact-sheet.jpg",
+  "bytes": 112744,
+  "sha256": "b61ba79f75a6ee44a931f47793bad4b0a2d5747e94ffb5f025b925c6972f7c9e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/clean_studio__seed-1__PROCEDURAL.png",
+  "bytes": 718921,
+  "sha256": "bb81165e8c61ab95037f44e90cd135529821c19b49265f8b93106f1e22657917"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/clean_studio__seed-2__PROCEDURAL.png",
+  "bytes": 364982,
+  "sha256": "2bccf7de40d82775e92081be7dbbc010a1ea4c74c4f097993f28084e3b7b427e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/editorial_beauty__seed-1__PROCEDURAL.png",
+  "bytes": 911901,
+  "sha256": "5bc84fe94ced49c62e64761d04071cfe2f56311a1a57933348c626791ffe0aff"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/editorial_beauty__seed-2__PROCEDURAL.png",
+  "bytes": 890664,
+  "sha256": "fe2f8882a7909d4a68643a150a046dea6fa9735f43dc307cd5dcc0fa5cf4bfd9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/flat_lay__seed-1__PROCEDURAL.png",
+  "bytes": 831550,
+  "sha256": "74fb5ad210baa4573c7311184010a3a01d035a3c6710b8455948e7abdae2fd4b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/flat_lay__seed-2__PROCEDURAL.png",
+  "bytes": 679382,
+  "sha256": "9f52e6b9d40a8516430ef1ad8b1ac256db82d70b674674c0ecaee73ec17f6d3b"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/lifestyle_kitchen__seed-1__PROCEDURAL.png",
+  "bytes": 598428,
+  "sha256": "fdfa724f7321925a715fb34836fa67fb0ae49812742ab4762fedb4be66a8284e"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/lifestyle_kitchen__seed-2__PROCEDURAL.png",
+  "bytes": 624658,
+  "sha256": "42a85cd53d56d1f5298aaf8cdd62193c688df63a87b80cb91b0ff49f9378e72f"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/luxury_hero__seed-1__PROCEDURAL.png",
+  "bytes": 767968,
+  "sha256": "256155ab6a52fb6eb4e8903c4332f8581c6de7b4c9e5e64d081d4625965494ae"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/luxury_hero__seed-2__PROCEDURAL.png",
+  "bytes": 762395,
+  "sha256": "5823dbbdd671caddc3a14bd4faada5beeaa2c95bec8f8675136d06ecb3fd8497"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/minimal_tabletop__seed-1__PROCEDURAL.png",
+  "bytes": 776051,
+  "sha256": "bca32186f167a8154b4c071ba66956463601e5f472e652acbaa23f9588bf1431"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/minimal_tabletop__seed-2__PROCEDURAL.png",
+  "bytes": 756090,
+  "sha256": "2f02db504b284bb37679107be02d32ec3d40e6ca8bec69ef6479893372cc76d1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/natural_outdoor__seed-1__PROCEDURAL.png",
+  "bytes": 612825,
+  "sha256": "4d469fae0b15acc508cc0a5fb2a82f2d3c6ad4683d01dda89e06d6630ead8ac9"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/natural_outdoor__seed-2__PROCEDURAL.png",
+  "bytes": 622064,
+  "sha256": "2623ef00e90e9299a95ffe1d94c87e73551f5dd8d9e3d3c936573ac88d47099a"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/reflective_surface__seed-1__PROCEDURAL.png",
+  "bytes": 853762,
+  "sha256": "495c511b55a49459a2eb60e942d86e2946b2a80b95dec9a6e5e7a355870e1f76"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/reflective_surface__seed-2__PROCEDURAL.png",
+  "bytes": 848200,
+  "sha256": "fbf658dd3bc9ca9460acedef88a6974cef5890c92a4f3ba00c5b11a7050180e1"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/run-details.json",
+  "bytes": 34300,
+  "sha256": "29f55546d83fa96e99cc0c6dd29325590414e2ada5f31876d9c7a19e718404e0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/seasonal_holiday__seed-1__PROCEDURAL.png",
+  "bytes": 865437,
+  "sha256": "38941ed15be5ecbc9ceb5d26d5ab4e242a4d45dd3ced938de6fbeab8ba7112a4"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/seasonal_holiday__seed-2__PROCEDURAL.png",
+  "bytes": 848678,
+  "sha256": "a1d22908dba470d434fd70fde7fc9ff647bd0d15df7df382d03bef45cf88d2ba"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/social_ad__seed-1__PROCEDURAL.png",
+  "bytes": 850895,
+  "sha256": "3b544a3e59021beb963daee3fbee678d59dd082d2b9b2b3269c69057062aefc0"
+ },
+ {
+  "path": "01-procedural-benchmark-480/wine2/social_ad__seed-2__PROCEDURAL.png",
+  "bytes": 850268,
+  "sha256": "7c9937910281103c1a3abbe036b1934b67620c92b9985b6662ebb7327e1f47b6"
+ },
+ {
+  "path": "02-magichour-model-comparison/00-comparison-contact-sheet.jpg",
+  "bytes": 132781,
+  "sha256": "ad87e17a8bc280462ffa6eabf84b0a138299d78597d0c5099009c7f822de2adc"
+ },
+ {
+  "path": "02-magichour-model-comparison/backpack1__exact-api-input.png",
+  "bytes": 230132,
+  "sha256": "3e0f41be11f8ade6b2671a0dbedc2133d0b0b475ad1e7790dd04a30a5ecd94b0"
+ },
+ {
+  "path": "02-magichour-model-comparison/backpack1__gpt-image-2-5-flare__ACTUAL.png",
+  "bytes": 1454896,
+  "sha256": "a5f6d47ab4fe992c2cf69779b5a174ba209477a63972b503e467fc3adf6e3997"
+ },
+ {
+  "path": "02-magichour-model-comparison/backpack1__nano-banana-2-1__ACTUAL.png",
+  "bytes": 1185864,
+  "sha256": "34f210f8ed4d48e34c4585b1a78eed0ffc8e30214e14d3e5dbe60f450001fe4f"
+ },
+ {
+  "path": "02-magichour-model-comparison/backpack1__nano-banana-pro__ACTUAL.png",
+  "bytes": 1140590,
+  "sha256": "7e1eb00ae52ad844f3e286c771b1d8f64d5f66e49602c7e99fbf5a262cd8a478"
+ },
+ {
+  "path": "02-magichour-model-comparison/can1__exact-api-input.png",
+  "bytes": 143618,
+  "sha256": "f7c9fd8c97cdb06b41be5e74b8283fa0cff728c4afa5dd188e873d90b75d0f4c"
+ },
+ {
+  "path": "02-magichour-model-comparison/can1__gpt-image-2-5-flare__ACTUAL.png",
+  "bytes": 1206913,
+  "sha256": "80476a9e0c8d894776877ceca00c70abbc4a7c2e48cfc9f4ae3cdbf0cbd233aa"
+ },
+ {
+  "path": "02-magichour-model-comparison/can1__nano-banana-2-1__ACTUAL.png",
+  "bytes": 1150364,
+  "sha256": "800fb80fe010a83f6bf4b05aa372e69a07397c27df9c6fdecca7eb672f78b89d"
+ },
+ {
+  "path": "02-magichour-model-comparison/can1__nano-banana-pro__ACTUAL.png",
+  "bytes": 1085000,
+  "sha256": "3810ae70172de668ffd9a6112c46c735139b24533fd8defe85638e035bca9dd3"
+ },
+ {
+  "path": "02-magichour-model-comparison/deodorant_backlabel__exact-api-input.png",
+  "bytes": 342027,
+  "sha256": "6bcb9194f802ca3f715963f02bad2a68b5a2d747582e7a44fc76d98af3d94d07"
+ },
+ {
+  "path": "02-magichour-model-comparison/deodorant_backlabel__gpt-image-2-5-flare__ACTUAL.png",
+  "bytes": 1222451,
+  "sha256": "d6856f731480f3e72c3a4dce7d0c441c089adfbf34f51aa3ddb158462eb243dd"
+ },
+ {
+  "path": "02-magichour-model-comparison/deodorant_backlabel__nano-banana-2-1__ACTUAL.png",
+  "bytes": 1161685,
+  "sha256": "d954f765f30cfbb5c8587c801f93b7222f3d0cfe657a00f9488e85ac75e448c8"
+ },
+ {
+  "path": "02-magichour-model-comparison/deodorant_backlabel__nano-banana-pro__ACTUAL.png",
+  "bytes": 1171668,
+  "sha256": "302e4cab21f598596fce7ee39a56b11ccb9ed1e8a5002e42d482558036dedbe0"
+ },
+ {
+  "path": "02-magichour-model-comparison/historical-prompts-settings-costs-and-rights.json",
+  "bytes": 5790,
+  "sha256": "c0197033ab02b389c138ed67a04588ada13563c285f68134ae6539323546c40a"
+ },
+ {
+  "path": "03-specialist-comparisons/00-backpack1__PAIRED-COMPARISON.jpg",
+  "bytes": 231989,
+  "sha256": "a0eb8fc6550a125cd4aafbd9e804ffe6b184cb772bdff9fc92dac64e918b8456"
+ },
+ {
+  "path": "03-specialist-comparisons/00-can1__PAIRED-COMPARISON.jpg",
+  "bytes": 186020,
+  "sha256": "4b89342cc8eeae845a27a3dd4d156901e449545cd61fc19ad97c7f664940241e"
+ },
+ {
+  "path": "03-specialist-comparisons/00-deodorant_backlabel__PAIRED-COMPARISON.jpg",
+  "bytes": 207507,
+  "sha256": "edda26299b176cb8439747642a0212d445d1d3e454200bc689de176f65c6a497"
+ },
+ {
+  "path": "03-specialist-comparisons/pixelcut-limitations.json",
+  "bytes": 1327,
+  "sha256": "5f1a763322d8a172d252d3b6918a84e52147818c2589e5c36f58c9da0733f3ac"
+ },
+ {
+  "path": "03-specialist-comparisons/pixelcut__backpack1__SCREENSHOT-LIMITED.png",
+  "bytes": 202592,
+  "sha256": "06816c30b60f58ff6b8e8951089010726aacb246c66092ddbe0c3ac3f282e1bb"
+ },
+ {
+  "path": "03-specialist-comparisons/pixelcut__can1__NATIVE-ASPECT-MISMATCH.png",
+  "bytes": 329855,
+  "sha256": "317dcfe7a2267888ecd67deb4ca20dde45a45743a11751e116b92240152d7864"
+ },
+ {
+  "path": "03-specialist-comparisons/pixelcut__deodorant_backlabel__NATIVE-ASPECT-MISMATCH.png",
+  "bytes": 409565,
+  "sha256": "33f0052afe1fc82c0d5f4eefa3e8d4eac8a4dc9ff5ba9b9d4dc3189c089ef032"
+ },
+ {
+  "path": "03-specialist-comparisons/zproduct-limitations.json",
+  "bytes": 1367,
+  "sha256": "94981c46d5c79b826a361b674ce675d4e52191a8701c56af8a9caa1cc35fdfc7"
+ },
+ {
+  "path": "03-specialist-comparisons/zproduct__backpack1__SCREENSHOT-LIMITED.png",
+  "bytes": 53009,
+  "sha256": "f64241f5405a6c4742bef58996051c3512ce75c3d3909aeabe4cb30d33c508cf"
+ },
+ {
+  "path": "03-specialist-comparisons/zproduct__can1__SCREENSHOT-LIMITED.png",
+  "bytes": 83811,
+  "sha256": "e085c36e6fca6d9fba5081f3ff66e7403bacd197eb04796d055a34e51f6bd970"
+ },
+ {
+  "path": "03-specialist-comparisons/zproduct__deodorant_backlabel__SCREENSHOT-LIMITED.png",
+  "bytes": 72977,
+  "sha256": "cb44509e38f475b427194450cff62edadd190249fbb5fa319a129bf6ee01919e"
+ },
+ {
+  "path": "04-nov21-notebook-displays/cpu-procedural__cell-190__EMBEDDED-DISPLAY.png",
+  "bytes": 190615,
+  "sha256": "ab7906402404589a65c348e5ec2b17b163d9e6507529f8003cfde041f88d9ba9"
+ },
+ {
+  "path": "04-nov21-notebook-displays/live-magichour__cell-190__EMBEDDED-DISPLAY.png",
+  "bytes": 190615,
+  "sha256": "ab7906402404589a65c348e5ec2b17b163d9e6507529f8003cfde041f88d9ba9"
+ },
+ {
+  "path": "04-nov21-notebook-displays/live-magichour__cell-196__EMBEDDED-DISPLAY.png",
+  "bytes": 155777,
+  "sha256": "86e8a1e42a9e1af86bb61d75025cdedba153fc684ead5b10dd52a5a5649eb155"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/01-backpack1_clean_studio.png",
+  "bytes": 850059,
+  "sha256": "5c26b6f1e03682cca8393bea2436f916ea9b7608e57c2fe4c669f81b9ea36f42"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/02-backpack2_natural_outdoor.png",
+  "bytes": 1077283,
+  "sha256": "a56e69eb4beb94b74ff41e56659cb87d890dc95071e6e29a07114a9b2533d2d3"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/03-can1_luxury_hero.png",
+  "bytes": 1088666,
+  "sha256": "297020b964d0bc30ee18c13e4ba0005adb5de1252e51f805c7f5c0f7cbdd00d3"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/04-can2_social_ad.png",
+  "bytes": 985032,
+  "sha256": "e3ace1d3dc077dabf335435feb3979c8fecff71d4c995300a85a1f24077f324e"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/05-facemask_editorial_beauty.png",
+  "bytes": 1119583,
+  "sha256": "60f8866b0cbbd5ffe74d6a38f036c5cc055db19b0113a55488dd6d339fb4cd7b"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/06-glass1_clean_studio.png",
+  "bytes": 802420,
+  "sha256": "8fb0cf8df5c968551fabf44a9e9dac42f001e8d1ba8258d6c86453da892ad2f5"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/07-glass2_minimal_tabletop.png",
+  "bytes": 819639,
+  "sha256": "799e8bd34809930b3e3a6431b0b29d58412d93fdc0514d1dd8ea38b1d1e8849c"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/08-perfume2_luxury_hero.png",
+  "bytes": 1170105,
+  "sha256": "43af510f740bff1d1bda12c0725b2044ae4eefcf03be0cc7feff3407ae3131a7"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/09-sneaker1_social_ad.png",
+  "bytes": 859238,
+  "sha256": "d54ac4a918b6b88c4843e0ef186e12a83c1bdfef4a2c845d5e2ab30b8922ed34"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/10-sneaker2_natural_outdoor.png",
+  "bytes": 1046221,
+  "sha256": "d69ba2c24f21090fd1541ff454bff4aab130db9fbb3e7fd5e347b72b469f7059"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/11-tshirt1_minimal_tabletop.png",
+  "bytes": 902252,
+  "sha256": "d8b7552a6711081d362065a4303f9b0d5d69f7fbf18f1a1aee493efafe2511a1"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/12-tshirt2_seasonal_holiday.png",
+  "bytes": 1270466,
+  "sha256": "c6fe277b55d91572b73d5ab18166bbbc4b8bbb86a721113580073102ebafff14"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/13-watch2_luxury_hero.png",
+  "bytes": 865158,
+  "sha256": "aa69c66982ba4abb9d289969575b45ce01e1ce52b067e76815a8c573d31a796c"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/14-snack1_lifestyle_kitchen.png",
+  "bytes": 877659,
+  "sha256": "cb3d45cc79d70301be69bb645163bca8636e036aaaa4b6e2b5d44ec052e9a753"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/15-wine1_seasonal_holiday.png",
+  "bytes": 1191023,
+  "sha256": "193cd180bdf2840f615e4dc61e19eb9eefd791535a694d5843506ccc596ab354"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/16-wine2_lifestyle_kitchen.png",
+  "bytes": 772473,
+  "sha256": "ea9c33acd0e42ff179ed082ec5d49a9e4a1ea2bfd624bfedd4f7ccf2fdd9249e"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/17-lotion1_editorial_beauty.png",
+  "bytes": 1065272,
+  "sha256": "ac729eb61b83e7f513e2e5d0322ae4f7218400f582606dbcc04d3b61d75178ad"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/18-lotion2_clean_studio.png",
+  "bytes": 704497,
+  "sha256": "b016b7acfee82f5b2c3f1065732a698a9054f11050084cbe4a847ff4cf622f5c"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/19-shampoo2_natural_outdoor.png",
+  "bytes": 926190,
+  "sha256": "b72f377c663c1502ac465e1266aad16c4d52b777f8855c6933d61290bbdd12c3"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/20-skincare_tinytext1_editorial_beauty.png",
+  "bytes": 1118386,
+  "sha256": "b5615a15ad350af00e090a7d640f8d3ca43e98ab061e5b4c9c2ee5d2fdb8699e"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/seven-dimension-scores-DEVELOPMENT-SCORING-PENDING-HUMAN-REVIEW.csv",
+  "bytes": 5936,
+  "sha256": "895a625e313e7ff70eaa315c1b3379240e2682234bfdbcea018803e3d59a1fc4"
+ },
+ {
+  "path": "05-historical-baseline20-scoring/summary-DEVELOPMENT-SCORING-PENDING-HUMAN-REVIEW.json",
+  "bytes": 1062,
+  "sha256": "6f14f887a230e3079576d8e3c3c4c71ed4aa2e57302ee6c61f474b7141193330"
+ },
+ {
+  "path": "06-magichour-scenes-and-composites/bag-source-locked.png",
+  "bytes": 956278,
+  "sha256": "e2cb75400ad77b8186df3e3a3cd6a17e2f9bd1b3bee415814b330c440659530b"
+ },
+ {
+  "path": "06-magichour-scenes-and-composites/can-source-locked.png",
+  "bytes": 931280,
+  "sha256": "8c6716690699a1c1ace866a1143dabf29bca3b7fffb11c073313f0afe584077e"
+ },
+ {
+  "path": "06-magichour-scenes-and-composites/cool_editorial__output-0.png",
+  "bytes": 1130720,
+  "sha256": "ac1fdc87bdcd2d458d9b2e44b1e20124e29e79741a0de0f6e14a42c5a239c028"
+ },
+ {
+  "path": "06-magichour-scenes-and-composites/deodorant-source-locked.png",
+  "bytes": 1002529,
+  "sha256": "b6b7388f79b21192795354a3167d822fe29ab98389e91ab3c89abea394b6585a"
+ },
+ {
+  "path": "06-magichour-scenes-and-composites/tiramisu-source-locked.png",
+  "bytes": 1135747,
+  "sha256": "5131bcc1cadc6c6f6761115bf1688ac8044ddfcb7ee12fd5023d47baff072a0d"
+ },
+ {
+  "path": "06-magichour-scenes-and-composites/warm_tabletop__output-0.png",
+  "bytes": 1202573,
+  "sha256": "034e373371259a2caa088a8bb2ee910fc184ab22fecdc95f5c755d62cdef9cb3"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/README.md",
+  "bytes": 952,
+  "sha256": "eebd37bc1a4e9c820cd04b69b1e0d81f4bde9bca781307877ca4e94a8a3b3ef6"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/backpack1__Source-composite-13Nov__opaque-interior-repair-dark.png",
+  "bytes": 208268,
+  "sha256": "8ad399316133b7e89cba99c6d63fb85c9276885eefb54cd2855a5ae8a2bb2a01"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/backpack1__Source-composite-13Nov__opaque-interior-repair-light.png",
+  "bytes": 215281,
+  "sha256": "9227f0e615373eb4a7dbc4292f80d38bdb0fe8ccc9f7be21edd69c4e7e265ae8"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/backpack1__Source-composite-13Nov__original.png",
+  "bytes": 982931,
+  "sha256": "6cc472da42fca4c057ccf256f528a35b4e722c107c840543bc98d7286cd0d8c5"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/backpack1__Source-composite-13Nov__repair-detail-before-after.png",
+  "bytes": 473491,
+  "sha256": "67d3eb23c601fa864fcdf6a61298b43e7e0451d8d2d9765cc8ab49f2c8ffaf6c"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/backpack1__Source.png",
+  "bytes": 230132,
+  "sha256": "3e0f41be11f8ade6b2671a0dbedc2133d0b0b475ad1e7790dd04a30a5ecd94b0"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/can2__MagicHour-editor-13Nov__nano-banana-2-1.png",
+  "bytes": 1270817,
+  "sha256": "518de28c8f26ac45a5085598102f484bacc7fbd275ae6b02ec87a60ac2619671"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/can2__MagicHour-editor-13Nov__nano-banana-pro.png",
+  "bytes": 1222891,
+  "sha256": "3201964a337cbd17653dce93f0386daa4488853de6d27a4e80924a05122ca6e2"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/can2__Source.png",
+  "bytes": 356699,
+  "sha256": "9ad34cd62cfa95a6a005e58c330e7c0680af52a7910a6b07b201cda24b3f4af6"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__flatlay-charcoal.png",
+  "bytes": 1559193,
+  "sha256": "e3d84d97c6a13bfb7dae2dc349cb8087f2c8a10624170ed755c1cd39c4a4937b"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__flatlay-marble.png",
+  "bytes": 1368996,
+  "sha256": "1ce9e8ee93b9f68715e1cebfd795377d2ca393d195ef963a5ce891914d8db3fa"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__flatlay-wood.png",
+  "bytes": 1185416,
+  "sha256": "22a7e9840cf8854d9f2628638e23dee0d12aecc4f4d2875e20aba92782c3e5c3"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__opaque-interior-repair-dark.png",
+  "bytes": 203641,
+  "sha256": "566be7007fa47dc73385cca35ac1cb06b28ff10d7220a0b6373686ff7fbdcb97"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__opaque-interior-repair-light.png",
+  "bytes": 203264,
+  "sha256": "0f7100080b178c5ccedeea0dc05ef458c88b85e8304383b8693d45472a2417e2"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__original.png",
+  "bytes": 1013082,
+  "sha256": "a3775118fe56f06acf4bed646d679118c099dcb64efcf504d4f17eb702ecac05"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__patch-charcoal.png",
+  "bytes": 1052160,
+  "sha256": "76aaea7152ed1a6a133da377c71b28ab86704510767ab192d69213c4fc1fd0af"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__patch-marble.png",
+  "bytes": 955393,
+  "sha256": "5fdac37d0d5d76ef3f179e32bc9ee682059ad6e43603565d26d030d22a06dd83"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__patch-wood.png",
+  "bytes": 879807,
+  "sha256": "8dc889baddd40252ace0b2e489a826528604618043deb41da8c8fecffb794888"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source-composite-13Nov__repair-detail-before-after.png",
+  "bytes": 494969,
+  "sha256": "0e45ced54366d3a4129f85b851b3ade82fbd9d119f2ec71d396c558ee6e2fe40"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/deodorant_backlabel__Source.png",
+  "bytes": 342027,
+  "sha256": "6bcb9194f802ca3f715963f02bad2a68b5a2d747582e7a44fc76d98af3d94d07"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/lotion__MagicHour-editor-13Nov__hybrid.png",
+  "bytes": 1091846,
+  "sha256": "4fbac055add04930f3aa408d76fa6c0708d1d2486103cefe5859e5d78db7bbe6"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/lotion__MagicHour-editor-13Nov__pure.png",
+  "bytes": 1108059,
+  "sha256": "b154cfe06afc24ca97f714d8f40fb6b8c4cb2e07a1c67474b6aeab7152c9515e"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/lotion__Source-composite-13Nov__product-on-magichour-flare-scene.png",
+  "bytes": 940866,
+  "sha256": "7d9654c1d8a241995ffb1d160b8c17ad3b45425ef0f91f5f398b1026f64e3aec"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/lotion__Source-composite-13Nov__source-locked-composite.png",
+  "bytes": 940866,
+  "sha256": "7d9654c1d8a241995ffb1d160b8c17ad3b45425ef0f91f5f398b1026f64e3aec"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/lotion__Source-composite-13Nov__source-locked-photographic-scene.png",
+  "bytes": 934472,
+  "sha256": "52c033e7e58115ebb2254db01bca14e7a7f27012a8529fa192b9afaa260f99a6"
+ },
+ {
+  "path": "07-nov13-native-comparisons-and-failures/lotion__Source.png",
+  "bytes": 94034,
+  "sha256": "129a387c5626ab7775baa187ed8afb590cb07b3ec5bd5af33f399538d1a98425"
+ },
+ {
+  "path": "BENCHMARK_OUTPUT_INDEX.csv",
+  "bytes": 113264,
+  "sha256": "37a776e178358ab8795b5eca0598e0b3ca45561e6f4d548cae929bdc3713b89a"
+ },
+ {
+  "path": "BRIEF_COVERAGE.csv",
+  "bytes": 3506,
+  "sha256": "51c7accd2b86f63c7b6abaaa077969db88d244b8ff956318cdc4e3b0aecd708d"
+ },
+ {
+  "path": "README.md",
+  "bytes": 4872,
+  "sha256": "3b071dbb8409d0d4ca9bdb99b413e0aa39bbab123284bad4d9dce3f4a46820f2"
+ }
+]

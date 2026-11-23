@@ -1,0 +1,2 @@
+# Optional explicit CPU IS-Net comparison. Official PyPI project: github.com/danielgatis/rembg
+rembg[cpu]==2.0.69

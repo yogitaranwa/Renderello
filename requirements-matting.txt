@@ -1,0 +1,2 @@
+# Optional CPU stage, original publisher: https://github.com/pymatting/pymatting
+pymatting==1.1.16

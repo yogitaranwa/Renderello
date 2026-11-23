@@ -1,0 +1,14 @@
+# Full-size dashboard verification follow-up
+14 November 2026, 09:53 IST. Same code as the 09:25 current-code bundle; new verification evidence and updated status only.
+
+Only the Grounding DINO Tiny downloaded model cache was approved for cleanup at 09:50. Removed that one pinned cache directory,12regularfiles690,305,545bytes; filesystem reclaimed690,339,840bytes. Other caches and all project code/photos/generatedimages/reports/testevidence retained. Future GroundingDINO use needs its pinned model downloaded again or a supplied checkpoint. No paid/live-call authority was added.
+
+After capacity recovery, the normal full-size preview generator was used without the earlier tiny-tile substitution.31tests passed in42.50seconds across the dashboard, backend configuration and main entrypoints,118Pillowdeprecationwarnings. This includes original last-two inconclusive paths, preview readiness, upload, practical aspects, downloads, regeneration, reference retention and source declarations. The original zero-space run remains inconclusive and preserved; a new passing rerun does not establish its precise earlier cause.
+
+253relatedtests separately passed in7.06seconds,13Pillowwarnings. Counts overlap and must not be added. No full-project regression, live provider execution or quality score is claimed.
+
+Inspected actual desktop and390pxmobile homepage pixels with normal synthetic demo previews, not graytesttiles. Model/mock/zero-spend banner and template controls are readable. Mobile grid fits two columns with text wrapping; other controls require scrolling. These synthetic bottle previews are still not eight polished real-photo covers.
+
+Actual saved native1024x1536garment also completed the file-based alpha-only ROI workflow, then existing dashboard source+explicitmask handoff to two1024square deterministic outputs in5.37seconds for this local combined replay. Supplied mask bytes match the saved refined alpha exactly. Original source bytes were not edited. Inspected the first actual output: hanging pose/five printblocks remain visible, but framing resamples the product, sleeve fringe/other mask edges remain and the genericbackground/artificialshadow do not prove physical support, tinytextfidelity or polishedtemplate quality. This is integration evidence, not a new photographic acceptance.
+
+Storage is no longer the immediate blocker for these bounded checks. Paidcalls remain paused. Current implementation limits in the09:25coverageaudit still apply: evaluator/adminpanels and automatic receipt→typedplan adapters are not implemented; ROIselection is supervised preprocessing. Core dashboard flow and main researcherCLI entrypoints exist. Remaining acceptedmodel/templates/20qualifiedsource/2matchedspecialist/currentprice+margin gates still need actual evidence, not more synthetic tests. Productization remains NO-GO.

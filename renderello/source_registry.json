@@ -1,0 +1,197 @@
+[
+  {
+    "sha256": "4d92fd2b6858c4eb62f4e44e2a9ff50e086cf80828b57ca198ccfe04025cd59c",
+    "label": "backpack1",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by albertoziveri | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/92167476@N03/9418654172",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "de2ae2751f4aa9a4f7ffbdac2933f560c1fb2b1305801434d4a18fd619ac2a04",
+    "label": "backpack2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by ToastyKen | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/24226200@N00/1466198389",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "0102fa5b05fb83ab58568bb33899b8533fd6938f31c08d66572d28149fe85652",
+    "label": "can1",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by Dusty J | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/55608722@N06/12199880715",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "6935bcc100b1c9263c7e60e81cebf9579aec28e158f3cba884712b7adf79e7cc",
+    "label": "can2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by Creative Tools | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/33907867@N02/4306184928",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "2ec25c883e1a39bf37ec6bd467d3892222991c008a66eaf187d34a951f1b42c5",
+    "label": "facemask",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524180/open-container-activated-charcoal-facemask",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "18d849c82947ed19ca6403ec67822f95f8dae87273c24d38384a0101bd3c61cf",
+    "label": "glass1",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by-sa 2.0 by Dave Dugdale | https://creativecommons.org/licenses/by-sa/2.0/ | https://www.flickr.com/photos/37387065@N05/5080257300",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "7179b01e25f880663d7ce084088c3a7e67a2d068bb38fdf6c4a36df3f59700e4",
+    "label": "glass2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by pavlinajane | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/60291025@N05/10841624814",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "e3ba3de514e56e214e8307700934261d642a0392a67f8524ac58173f97368249",
+    "label": "perfume2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by Naomi King | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/22141297@N06/7796400432",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "6a3426c4f2864f85a0ba70545c83b7599df183210c571734fde45bb36795a11c",
+    "label": "sneaker1",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524416/white-sneaker-with-pink-led-lights",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "e13d874699dc5067f08bd58a92a76faa722b67b8c70a2fdd5845442083356beb",
+    "label": "sneaker2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC cc0 1.0 by None | https://creativecommons.org/publicdomain/zero/1.0/ | https://www.rawpixel.com/image/11524257/white-sneaker-with-pink-led-lights",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "bd37f570e2725991e464bf9a1f95619dd0401210435034a7f201129560766c74",
+    "label": "tshirt1",
+    "classification": "External illustration (not a product photograph)",
+    "attribution": "CC pdm 1.0 by emilylovescoloring | https://creativecommons.org/publicdomain/mark/1.0/ | https://www.flickr.com/photos/203051018@N08/54591299167",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "360b7a4efdd0465f0a5e6852f15329aa531493c274061272fc3580636d9050c1",
+    "label": "tshirt2",
+    "classification": "External T-shirt mockup (owning page explicitly labels mockup; not verified product photograph)",
+    "attribution": "CC pdm 1.0 by emilylovescoloring | https://creativecommons.org/publicdomain/mark/1.0/ | https://www.flickr.com/photos/203051018@N08/54592371899",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "756a34cd9e83f18aaf7d7223fa3527ac03ee4938e7b1a7cd8872951f53d02814",
+    "label": "watch1",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by gadgetdude | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/49503023809@N01/2418089346",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "3fb02f9ad5b3dcbc6cdc363ab25f598f776abfb6e8538ec4089160d5f5b9583b",
+    "label": "watch2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by-sa 2.0 by France1978 | https://creativecommons.org/licenses/by-sa/2.0/ | https://www.flickr.com/photos/51764518@N02/15757858992",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "f83df2ea9a9a9925d2bbb7ff1db50303fba6f98d3498380df409082fe78abead",
+    "label": "snack1",
+    "classification": "CGI packaging render, not physical product photograph",
+    "attribution": "CC by 2.0 by Jordanhill School D&T Dept | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/42042252@N02/5559242063",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09",
+    "capture_origin": "SYNTHETIC_CONFIRMED_BY_OWNING_PAGE_DESCRIPTION",
+    "physical_photo_eligible": false,
+    "origin_evidence_url": "https://www.flickr.com/photos/42042252@N02/5559242063",
+    "origin_evidence": "Owning author describes Illustrator artwork mapped onto a crisp-packet mesh in Cinema4D and rendered. Rechecked2026-11-14. Retain for synthetic stress tests only."
+  },
+  {
+    "sha256": "facfcfac37bab43e4d671675142ee551c5c1fb72d0a8ddf70506129fa8ec8f62",
+    "label": "wine1",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by aloshbennett | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/13203757@N00/2879471624",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "438be98a15fec89c3b9fe98fae77eefe77718e202afaf169a1e9009569355eef",
+    "label": "wine2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by thebringer | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/81266640@N00/3885797185",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "d3b71b10df98d492f0a75dfc03de3c35c58a4f81471a1ff013d49efe8067094f",
+    "label": "lotion1",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by Apotek Hjartat | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/53719740@N05/8706603913",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "f441520d52dfa892db3d7f871c00163edc8e0fa10da0ab8b0ea615082dde48b7",
+    "label": "lotion2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC by 2.0 by ERICSON LABORATOIRE | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/photos/85171915@N04/8056127582",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "5ca78137e146e055b656e6930c0e68be7a4f6697566013793e6db6676df6886e",
+    "label": "shampoo2",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC CC BY-SA 3.0 de  by F. Kesselring, FKuR Willich | https://creativecommons.org/licenses/by-sa/3.0/de/deed.en | https://commons.wikimedia.org/wiki/File:Shampoo_Bottle_made_of_PLA-Blend_Bio-Flex.jpg",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "be560d797faf9a4e570e732f7020ff8780c3625f835720c0c9370a72dc090ac2",
+    "label": "amber dropper bottle on white (little legible text; NOT a tiny-text test)",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC0 1.0 | creator unrecorded on Openverse (rawpixel public-domain collection) | https://www.rawpixel.com/image/11524368/back-side-beard-oil-bottle | https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2JzMjI2LWltYWdlLmpwZw.jpg | rawpixel page 2026-11-09: 'Public Domain, Free for Personal and Business use, View CC0 license', no Editorial tag; underlying original source not independently traced",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "a6012e95c5e0bbfc56cefa3c35ab7560cd726884eacebc92b9a9e81de4e5b672",
+    "label": "furry_teddy1 (fur-edge test: fuzzy teddy bear outdoors)",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC0 1.0 | creator unrecorded (rawpixel public-domain collection) | owning page shows CC0 link, no Editorial tag found in page HTML 2026-11-09 | https://www.rawpixel.com/image/6017419/photo-image-background-cute-public-domain",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "8eb2599c0cec18d1d0d8813f59344331d6050174ee4d4e385c21630f72eae249",
+    "label": "plush_boba1 (soft plush with small printed face, fabric texture; on sofa)",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC0 1.0 by Bigul Malayi | WordPress Photo Directory page states CC0 (verified in page HTML 2026-11-09) | https://wordpress.org/photos/photo/25269fcc28/ | downscaled to 1280px",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "a9199c68f2fd81db08d1f5b439f5bd3d10cd65c8b17be438fe3252e1b9f18d9c",
+    "label": "multiproduct_barber1 (many small products on countertop: scissors, combs, clippers, bottles with small label text, mirror reflections)",
+    "classification": "External product image (photographic appearance; capture origin not independently verified)",
+    "attribution": "CC0 1.0 | WordPress Photo Directory page states CC0 (verified in page HTML 2026-11-09) | https://wordpress.org/photos/photo/27966437d7/ | downscaled to 1600px",
+    "record_origin": "benchmark/manifest.json; historical checks in benchmark/LICENSE_VERIFICATION.md, 2026-11-09"
+  },
+  {
+    "sha256": "af7c5d4daf604fb8fd5a21499745a4612dfae715747585c0a2809a88db5ab1d9",
+    "label": "glass_full",
+    "classification": "External photograph, resized working derivative; capture origin attributed to source page, not independently proven",
+    "attribution": "Jorge Barrios | Page declares public domain | https://commons.wikimedia.org/wiki/File:Copa.jpg",
+    "original_sha256": "84f3cccbf90960327bfca02ee73657b837fa5e3404062b78fa1e25732ed70e23",
+    "record_origin": "Source page and actual original pixels checked November10 2026; added test, original20unchanged"
+  },
+  {
+    "sha256": "e8ba53c12477a35a2813e8a1314837e5a966076cdd6811ccb6ac7e7b514daca0",
+    "label": "watch_full",
+    "classification": "External photograph, resized working derivative; capture origin attributed to source page, not independently proven",
+    "attribution": "Cvmontuy | CC BY-SA4.0 | https://commons.wikimedia.org/wiki/File:Fossil_wristwatch_with_white_background.jpg",
+    "original_sha256": "a88946f2ebfb174c71c48318cfe449d9f1e7ef42b120de6a22171128d3f017ed",
+    "record_origin": "Source page and actual original pixels checked November10 2026; added test, original20unchanged"
+  },
+  {
+    "sha256": "a109b271b638920fdaee7955ce4c5a30f81a6ef948f269713693f8934dc6dd38",
+    "label": "deodorant_backlabel",
+    "classification": "Real photographed product back label with genuine fine print, visually checked;500x667Wikimedia preview, not full original",
+    "attribution": "Notional Target, CC BY-SA4.0 | https://creativecommons.org/licenses/by-sa/4.0/ | https://commons.wikimedia.org/wiki/File:Deodorant_stick_with_ingredients_label_(back_label).jpg",
+    "record_origin": "benchmark/DEODORANT_SOURCE.md; sourcepage fetched and preview visually inspected2026-11-10"
+  }
+]

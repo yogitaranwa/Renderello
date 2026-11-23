@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "deodorant_backlabel",
+    "sha256": "cb44509e38f475b427194450cff62edadd190249fbb5fa319a129bf6ee01919e",
+    "width": 500,
+    "height": 500,
+    "native_download": false,
+    "screenshot_crop": true,
+    "limitation": "SCREENSHOT ONLY: native file unavailable. Includes small interface controls. Do not use as native-resolution fidelity evidence.",
+    "service": "Z Product AI",
+    "tool_url": "https://zproductai.com/generate-image"
+  },
+  {
+    "source_id": "can1",
+    "sha256": "e085c36e6fca6d9fba5081f3ff66e7403bacd197eb04796d055a34e51f6bd970",
+    "width": 375,
+    "height": 500,
+    "native_download": false,
+    "screenshot_crop": true,
+    "limitation": "SCREENSHOT ONLY: native file unavailable. Includes small interface controls. Do not use as native-resolution fidelity evidence.",
+    "service": "Z Product AI",
+    "tool_url": "https://zproductai.com/generate-image"
+  },
+  {
+    "source_id": "backpack1",
+    "sha256": "f64241f5405a6c4742bef58996051c3512ce75c3d3909aeabe4cb30d33c508cf",
+    "width": 375,
+    "height": 500,
+    "native_download": false,
+    "screenshot_crop": true,
+    "limitation": "SCREENSHOT ONLY: native file unavailable. Includes small interface controls. Do not use as native-resolution fidelity evidence.",
+    "service": "Z Product AI",
+    "tool_url": "https://zproductai.com/generate-image"
+  }
+]
