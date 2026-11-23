@@ -27,11 +27,11 @@ def test_illustration_distinct_from_product_photo():
 
 def test_registry_bytes_all_match_pack():
     root=Path(__file__).parents[1]
-    records=json.loads((root/'renderello/source_registry.json').read_text())
+    records=json.loads((root/'renderello/source-registry.json').read_text())
     sources=json.loads((root/'benchmark/manifest.json').read_text())['sources']
     assert len(records)==27
     assert len({r['sha256'] for r in records})==27
-    for label in ['glass_full','watch_full','deodorant_backlabel']:
+    for label in ['glass-full','watch-full','deodorant-backlabel']:
         candidate=root/'benchmark/sources'/f'{label}.jpg'
         metadata=identify_source(candidate)
         assert metadata['match_basis']=='exact_file_sha256'

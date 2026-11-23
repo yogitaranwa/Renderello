@@ -131,12 +131,11 @@ def test_scene_and_hybrid_never_forward_extra_inputs(live, route):
     provider; scene and hybrid send one generated canvas, so extra uploads
     cannot change the per-call input shape or price."""
     reserved, tmp = live
-    try:
+    # Hardened contract: unsupported multi-source composition now fails
+    # before reserving, rather than reserving then failing inside a variant.
+    with pytest.raises(RuntimeError, match="scene-compose requires exactly one"):
         _run(_req(tmp, route, extra_products=1, refs=1, variants=1), tmp)
-    except Exception:
-        pass
-    n_calls = 1 if route == "scene" else 2
-    assert reserved == [("seedream-v5-flash", n_calls)]
+    assert reserved == []
     for b in FakeBackend.instances:
         for k in b.edit_kwargs:
             assert not k.get("extra_images") and not k.get("reference")

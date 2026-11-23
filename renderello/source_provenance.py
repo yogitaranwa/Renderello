@@ -7,7 +7,7 @@ from pathlib import Path
 
 def identify_source(path: Path) -> dict:
     digest = hashlib.sha256(path.read_bytes()).hexdigest()
-    registry = Path(__file__).with_name('source_registry.json')
+    registry = Path(__file__).with_name('source-registry.json')
     records = json.loads(registry.read_text()) if registry.is_file() else []
     match = next((r for r in records if r['sha256'] == digest), None)
     if match:

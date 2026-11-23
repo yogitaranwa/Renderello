@@ -109,14 +109,22 @@ def _product_entries(product_paths, members: list[GroupMember]) -> list[dict]:
         if m is not None and m.cutout is not None:
             entry["cutout_backend"] = m.cutout.backend
             entry["cutout_coverage"] = round(m.cutout.coverage, 4)
+            if getattr(m.cutout, "integrity", None) is not None:
+                entry["matte_integrity"] = m.cutout.integrity
         entries.append(entry)
     return entries
 
 
 def _cutout_warnings(members: list[GroupMember]) -> list[str]:
-    """User-visible honesty lines when the learned cutout did not run."""
+    """User-visible honesty lines when the learned cutout did not run or
+    its matte measured fragmented (review-confirmed runs stay honest)."""
     warns: list[str] = []
     for m in members:
+        if m.cutout is not None and getattr(m.cutout, "integrity", None):
+            from .matte_integrity import assess as _ma
+            _w = _ma(m.cutout.integrity)
+            if _w:
+                warns.append(f"{Path(m.path).name}: {_w}")
         if m.cutout is not None and m.cutout.backend == "grabcut":
             warns.append(
                 f"{Path(m.path).name}: cutout fell back to OpenCV grabcut "
@@ -582,6 +590,51 @@ def run_studio(req: StudioRequest, out_root: Path,
     group_errors = [f"{Path(m.path).name}: {m.error}" for m in members if m.error]
     ok_members = [m for m in members if m.cutout is not None]
 
+    if req.provider == "magichour" and req.mh_route in ("scene", "hybrid"):
+        if len(req.product_paths) != 1:
+            raise RuntimeError("scene-compose requires exactly one product photo; no credits reserved or spent")
+        if not ok_members:
+            raise RuntimeError("no product cutout succeeded: " + "; ".join(group_errors))
+
+    # Matte integrity (21 Nov 2026): measure component structure of every
+    # cutout and record it on the manifest product row. Paid Magic Hour
+    # routes fail closed (zero bill, before any reservation) when a matte
+    # looks fragmented and the reviewer has not confirmed it; procedural
+    # routes only warn. Thresholds and the measured table they come from
+    # are documented in matte_integrity.py.
+    from .matte_integrity import matte_stats, assess as matte_assess, assess_compact
+    matte_review: list[str] = []
+    for m in ok_members:
+        _alpha = np.asarray(Image.open(m.cutout.matte_path).convert("L"))
+        m.cutout.integrity = matte_stats(_alpha)
+        _warn = matte_assess(m.cutout.integrity)
+        if _warn:
+            matte_review.append(f"{Path(m.path).name}: {_warn}")
+    if matte_review and req.provider == "magichour" and req.mh_route in ("scene", "hybrid") \
+            and req.knob_values.get("matte_reviewed") != "1":
+        _short = "; ".join(
+            f"{Path(m.path).name}: {assess_compact(m.cutout.integrity)}"
+            for m in ok_members if assess_compact(m.cutout.integrity))
+        # Prefix must stay in webapp _SAFE_ERROR_PREFIXES and the whole
+        # message under its 300-char passthrough cap.
+        from .matte_integrity import MatteReviewRequired
+        previews = []
+        for _i, _m in enumerate(ok_members):
+            _src = Image.open(_m.path).convert("RGB")
+            _a = Image.open(_m.cutout.matte_path).convert("L")
+            _src.thumbnail((520, 520))
+            _a = _a.resize(_src.size)
+            _panel = Image.new("RGB", (_src.width * 2, _src.height), "white")
+            _panel.paste(_src, (0, 0))
+            _panel.paste(_a.convert("RGB"), (_src.width, 0))
+            _name = f"matte_review_{_i}.png"
+            _panel.save(run_dir / _name)
+            previews.append(_name)
+        raise MatteReviewRequired(
+            "matte review required (no credits reserved or spent; review the "
+            "saved matte, then re-run with knob matte_reviewed=1 to proceed): "
+            + _short, run_dir.name, previews)
+
     if req.provider == "magichour":
         if req.mh_route not in ("scene", "whole", "hybrid"):
             raise ValueError(f"unknown Magic Hour route {req.mh_route!r}; "
@@ -639,6 +692,17 @@ def run_studio(req: StudioRequest, out_root: Path,
             report = qa.evaluate(src_img, out_path, route="cutout_compose",
                                  template=preset.key, seed=seed)
             v.qa = _qa_dict(report)
+            if len(ok_members) == 1:
+                # Read the saved output, not a QA-resized comparison baseline.
+                native = compose.audit_composite(
+                    co, np.asarray(src_img),
+                    np.asarray(Image.open(out_path).convert("RGB")),
+                    aspect, seed, template.key)
+                v.qa["native_pixel_audit"] = native
+                if native["status"] != "MATCH":
+                    v.warnings.append(
+                        "native source RGB exactness not established: " + native["status"] +
+                        "; edges and lighting still require eye review")
         except Exception as e:
             v.error = f"{type(e).__name__}: {e}"
         variants.append(v)
@@ -665,8 +729,8 @@ def run_studio(req: StudioRequest, out_root: Path,
         "variants": [asdict(v) for v in variants],
         "elapsed_s": round(elapsed, 2),
         "contact_sheet": "contact_sheet.png",
-        "honesty": ("Deterministic routes keep product pixels source-exact; "
-                    "generative scenes change only the environment. QA scores "
+        "honesty": ("Cutout routes paste source pixels but may resize them; native RGB fidelity requires the per-variant audit. "
+                    "Background generation does not prove edge or lighting quality. QA scores "
                     "are automated proxies - human eye review remains the "
                     "acceptance gate per the brief."),
     }
@@ -866,6 +930,22 @@ def _run_magichour_scene(req: StudioRequest, preset: Preset, aspect: Aspect,
             "placeholder test mode.")
     max_attempts = scene_attempts_from(req.knob_values)
     n = max(1, min(req.variants, 4))
+    from .empty_scene_prompt import build_empty_scene_prompt, UnsupportedEmptySceneStaging
+    try:
+        scene_prompt = build_empty_scene_prompt(
+            template, aspect_key=aspect.value,
+            instruction=req.instruction)
+    except UnsupportedEmptySceneStaging:
+        raise
+    except ValueError:
+        # The instruction named the product: it cannot reach the scene
+        # model without re-creating the contradictory prompt. Drop it
+        # from the scene prompt and say so on the variant.
+        scene_prompt = build_empty_scene_prompt(
+            template, aspect_key=aspect.value)
+        _scene_note_dropped = True
+    else:
+        _scene_note_dropped = False
     reserved = 0
     actual = {"n": 0}
     if live:
@@ -890,20 +970,6 @@ def _run_magichour_scene(req: StudioRequest, preset: Preset, aspect: Aspect,
         # plan.full_text for the report; it never reaches the scene model
         # (the 20 Nov 2026 duplicate-product failure came from sending the
         # product-bearing prompt with a contradictory 'no product' tail).
-        from .empty_scene_prompt import build_empty_scene_prompt
-        try:
-            scene_prompt = build_empty_scene_prompt(
-                template, aspect_key=aspect.value,
-                instruction=req.instruction)
-        except ValueError:
-            # The instruction named the product: it cannot reach the scene
-            # model without re-creating the contradictory prompt. Drop it
-            # from the scene prompt and say so on the variant.
-            scene_prompt = build_empty_scene_prompt(
-                template, aspect_key=aspect.value)
-            _scene_note_dropped = True
-        else:
-            _scene_note_dropped = False
         v = VariantOut(index=i, seed=seed, image="", provider="magichour",
                        prompt_report=plan.report(), qa={})
         out_path = run_dir / f"variant_{i}_magichour_scene.png"
@@ -955,7 +1021,7 @@ def _run_magichour_scene(req: StudioRequest, preset: Preset, aspect: Aspect,
                 conditioning="empty_guide")
             if _scene_note_dropped:
                 v.warnings.append(
-                    "custom instruction named the product: excluded from the "
+                    "custom instruction named the product or in-frame equipment: excluded from the "
                     "empty-scene prompt to keep it non-contradictory; "
                     "environment-only wording was used")
             if isinstance(img, np.ndarray):

@@ -151,7 +151,7 @@ export async function loadPresets(onChange, fetchApi) {
     el.setAttribute('aria-pressed', 'false');
     el.innerHTML =
       '<span class="preset-cover" style="--h1:' + cover.h1 + ';--h2:' + cover.h2 + '">' +
-        '<img class="preset-cover-img" src="/static/covers/' + encodeURIComponent(p.key) + '.jpg" alt="" loading="lazy">' +
+        '<img class="preset-cover-img" src="/static/covers/' + encodeURIComponent(p.key.replace(/_/g, '-')) + '.jpg" alt="" loading="lazy">' +
         iconSvg(cover.icon) +
         '<span class="preset-check"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
         '<span class="preset-aspect"></span>' +

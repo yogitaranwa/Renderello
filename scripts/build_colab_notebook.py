@@ -346,7 +346,7 @@ def build() -> Path:
                      "accelerator": "GPU"},
         "cells": cells,
     }
-    out = ROOT / "notebooks" / "Renderello_Studio.ipynb"
+    out = ROOT / "notebooks" / "Renderello-Studio.ipynb"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(nb, indent=1))
     return out

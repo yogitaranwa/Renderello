@@ -69,6 +69,7 @@ class CutoutResult:
     bbox: tuple[int, int, int, int]     # x, y, w, h of the product in source coords
     backend: str                        # birefnet / rmbg2 / grabcut
     coverage: float                     # matte area fraction, sanity signal
+    integrity: dict | None = None       # matte_integrity.matte_stats, 21 Nov 2026
 
 
 @dataclass

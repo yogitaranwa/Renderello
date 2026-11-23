@@ -7,7 +7,7 @@ from renderello.empty_scene_prompt import build_empty_scene_prompt
 class T:
     scene = "matte ivory stone tabletop against a warm beige seamless wall"
     lighting = "low-contrast diffuse window light from upper left"
-    camera = "straight-on at product-label height, 85mm lens"
+    camera = "straight-on at surface height, 85mm lens"
     mood = "warm restrained editorial finish"
 
 

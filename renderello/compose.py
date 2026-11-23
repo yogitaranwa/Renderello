@@ -417,7 +417,15 @@ def composite_with_scene(cutout: CutoutResult, template: TemplateSpec, aspect: A
     fill, jx, baseline = placement_params(seed, template.key)
     crop, (px, py) = fit_product(rgba, cutout.bbox, (cw, ch),
                                  fill=fill, jx=jx, baseline=baseline)
-    if getattr(scene_fn,'flatlay_surface',False):
+    reviewed_overhead = (getattr(prompt, 'staging', None) == 'overhead')
+    if reviewed_overhead and (template.key != 'flat_lay' or
+                              getattr(prompt, 'reviewed_source_view', None) != 'overhead'):
+        raise ValueError('overhead staging requires a reviewed overhead source and flat_lay template')
+    if reviewed_overhead:
+        import hashlib
+        if getattr(prompt, 'reviewed_alpha_sha256', None) != hashlib.sha256(rgba[..., 3].tobytes()).hexdigest():
+            raise ValueError('overhead alpha differs from pixel-reviewed complete product matte; callback not called')
+    if reviewed_overhead or getattr(scene_fn,'flatlay_surface',False):
         # Flatlay has no floor baseline. Center the actual alpha bounds, not
         # the original photo frame; keep the existing no-upscale policy.
         crop,(px,py)=fit_product(rgba,cutout.bbox,(cw,ch),fill=.76,jx=0.,baseline=.88)
@@ -466,10 +474,12 @@ def composite_with_scene(cutout: CutoutResult, template: TemplateSpec, aspect: A
                 "the entire foreground, continuous flat horizontal support surface, "
                 "table surface clearly visible below a low distant horizon, studio set photography")
 
-    flatlay_used = bool(getattr(scene_fn,'flatlay_surface',False))
+    flatlay_used = reviewed_overhead or bool(getattr(scene_fn,'flatlay_surface',False))
     if flatlay_used:
         canvas=np.full_like(canvas,176)
-        prompt=(f"{template.scene}, {template.lighting}, {template.camera}, "
+        plane_horizon = None
+        if not reviewed_overhead:
+            prompt=(f"{template.scene}, {template.lighting}, {template.camera}, "
                 "true overhead flat lay photograph, entire image is one continuous "
                 "horizontal textured surface seen directly from above, empty center, "
                 "no wall, no horizon, no product, no raised platform")
@@ -536,7 +546,7 @@ def composite_with_scene(cutout: CutoutResult, template: TemplateSpec, aspect: A
             "shadow_style": shadow_style, "scene_grade": scene_grade,
             "scene_auto_lift": scene_auto_lift}, indent=2))
     grounded = False
-    if shadow_style and not cover_used and glass_backdrop is None:
+    if shadow_style and not cover_used and glass_backdrop is None and not reviewed_overhead:
         # Generated scenes carry no real floor contact, so an ungrounded product
         # reads as floating. Darken the SCENE ONLY with a per-component contact
         # ellipse at the product's actual lowest alpha; the product is pasted
@@ -558,6 +568,9 @@ def composite_with_scene(cutout: CutoutResult, template: TemplateSpec, aspect: A
     diag = {"ring_px": int(ring.sum()), "far_px": int(far.sum())}
     if flatlay_used:
         diag["scene_mode"] = "flatlay_surface_experimental"
+        if reviewed_overhead:
+            diag["source_view_review"] = "overhead explicitly declared by evaluator"
+            diag["foreground_view_change"] = "none"
     if getattr(scene_fn,'camera_matched',False):
         diag['scene_mode']='camera_matched_experimental'
         diag['declared_camera_pose']=scene_fn.camera_pose
@@ -742,3 +755,20 @@ def flatlay_center(matte, canvas):
     x=round(w/2-(int(xx.min())+int(xx.max()))/2)
     y=round(h/2-(int(yy.min())+int(yy.max()))/2)
     return max(0,min(w-mw,x)),max(0,min(h-mh,y))
+
+
+def audit_composite(cutout, source, output, aspect, seed, template_key):
+    """Audit decoded saved single-product output; resizing is not native exactness.
+
+    Uses the same fit_product as the compositor. No alpha semantics, edge or
+    lighting acceptance is inferred. Multi-product layouts need their own audit.
+    """
+    from .native_pixel_audit import audit_native_pixels
+    rgba = np.array(Image.open(cutout.rgba_path).convert("RGBA"))
+    alpha = np.array(Image.open(cutout.matte_path).convert("L"))
+    fill, jx, baseline = placement_params(seed, template_key)
+    crop, (px, py) = fit_product(rgba, cutout.bbox, aspect.size, fill, jx, baseline)
+    result = audit_native_pixels(source, alpha, output, list(cutout.bbox),
+                                 [px, py, crop.shape[1], crop.shape[0]])
+    result["placement_basis"] = "COMPOSITOR_FIT_PRODUCT_COORDINATES"
+    return result

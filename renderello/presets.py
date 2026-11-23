@@ -2,7 +2,7 @@
 problem statement, each with a genuinely detailed, researched prompt.
 
 Prompt structure follows the six-part commercial-brief pattern documented in
-docs/PROMPT_RESEARCH.md (product, purpose, composition, lighting,
+docs/prompt-research.md (product, purpose, composition, lighting,
 surface/environment, constraints), with material-specific overlays so glass,
 metal, fabric and packaging each get physically-correct lighting language.
 

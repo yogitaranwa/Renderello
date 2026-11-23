@@ -13,7 +13,7 @@ import sys
 import time
 
 VERSION = '0.4.58'
-CASES = [('shampoo2','flat_lay'),('snack1','flat_lay'),('watch_full','flat_lay')]
+CASES = [('shampoo2','flat_lay'),('snack1','flat_lay'),('watch-full','flat_lay')]
 
 
 def sha(path):
@@ -30,16 +30,16 @@ def code_hash(root):
     h = hashlib.sha256()
     for p in sorted((root/'renderello').rglob('*.py')):
         h.update(str(p.relative_to(root)).encode());h.update(p.read_bytes())
-    registry=root/'renderello/source_registry.json'
+    registry=root/'renderello/source-registry.json'
     h.update(registry.read_bytes())
     return h.hexdigest()
 
 
 def plan(root):
     rows=[]
-    p=root/'benchmark/sources/watch_full.jpg'
+    p=root/'benchmark/sources/watch-full.jpg'
     for material in ['linen','slate','paper']:
-        rows.append({'key':'watch_full_flat_lay_'+material,'source':str(p.resolve()),
+        rows.append({'key':'watch-full_flat_lay_'+material,'source':str(p.resolve()),
                      'source_sha256':sha(p),'template':'flat_lay','seed':0,'material':material})
     return {'version_required':VERSION,'code_sha256':code_hash(root),'cases':rows,
             'scope':'Same fullwatch source andseed,3explicit surface materials. Not20source acceptance.',
@@ -90,7 +90,7 @@ def worker(args):
             # Plumbing rehearsal only. Uses existing GrabCut + flat mock scene.
             scene=lambda gray,prompt:np.full_like(gray,(218,236,223))
             device=DeviceConfig()
-        mask=None;glass=case['key'].startswith('glass_full_')
+        mask=None;glass=case['key'].startswith('glass-full_')
         if glass:
             from renderello.compose import estimate_clean_backdrop,silhouette_from_backdrop
             rgb=np.array(Image.open(case['source']).convert('RGB'));B,ok=estimate_clean_backdrop(rgb)

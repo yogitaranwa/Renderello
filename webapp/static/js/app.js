@@ -1,8 +1,9 @@
+let matteReviewedFiles = [];
 // Multi-template studio UI. Each selected template uses the single-preset
 // generate API. Estimates are non-spending server reads, never local prices.
 import { makeUploader } from './components/uploader.js';
 import { loadPresets } from './components/presetGallery.js';
-import { renderResults, renderSkeletons, renderError } from './components/resultsGrid.js';
+import { renderResults, renderSkeletons, renderError, clearResults } from './components/resultsGrid.js';
 
 const $ = id => document.getElementById(id);
 const products = makeUploader('drop-products', 'file-products', 'thumbs-products', 4);
@@ -69,9 +70,53 @@ function costKey(data) {
   return JSON.stringify([data.provider, data.model, data.images, data.credits_expected, data.credits_worst_case]);
 }
 function isPaid() { return $('provider').value === 'magichour'; }
+const textFieldRules = [
+  { id: 'instruction', name: 'Scene instruction' },
+  { id: 'desc', name: 'Product description' },
+];
+const TEXT_LIMIT = 2000;
+// Match Python's Unicode code-point count, not JavaScript UTF-16 length.
+function characterCount(value) {
+  let count = 0;
+  for (const character of value) count++;
+  return count;
+}
+function textBlock() {
+  const invalid = textFieldRules.find(rule => characterCount($(rule.id).value) > TEXT_LIMIT);
+  return invalid ? invalid.name + ' is over the 2,000-character limit. Shorten it before generating; your text has not been changed.' : '';
+}
+function installTextFeedback() {
+  for (const rule of textFieldRules) {
+    const field = $(rule.id), feedback = document.createElement('p');
+    feedback.id = rule.id + '-feedback';
+    field.setAttribute('aria-describedby', [field.getAttribute('aria-describedby'), feedback.id].filter(Boolean).join(' '));
+    field.after(feedback);
+    let previouslyInvalid = false;
+    const refresh = () => {
+      const wasInvalid = previouslyInvalid;
+      const count = characterCount(field.value), over = count > TEXT_LIMIT;
+      previouslyInvalid = over;
+      field.setAttribute('aria-invalid', String(over));
+      feedback.className = over ? 'notice-line fail' : 'hint';
+      feedback.textContent = count.toLocaleString('en-US') + ' / 2,000 characters.' +
+        (over ? ' Shorten this field before generating; your text has not been changed.' : '');
+      updateButton();
+      // A template/engine change while text was invalid may have cleared
+      // its quote. Restore that missing quote once, not on every keystroke.
+      if (wasInvalid && !textBlock() && !estimateState && gallery?.selected.length && !busy && !sessionLost) updateEstimate();
+    };
+    field.addEventListener('input', refresh);
+    refresh();
+  }
+}
 function localBlock() {
+  const invalidText = textBlock();
+  if (invalidText) return invalidText;
   if (isPaid() && products.files.length > 1) {
     return 'Magic Hour scene composition supports one product photo per run. Remove extra product photos or choose the procedural engine.';
+  }
+  if (isPaid() && $('mh_route').value === 'whole' && refs.files.length) {
+    return 'Magic Hour whole-image generation accepts one input image only. Remove reference photos or choose the procedural engine. Multi-input pricing is not verified.';
   }
   return '';
 }
@@ -98,14 +143,18 @@ function displayEstimate(data) {
   if (data.provider !== 'magichour' || !numbers.every(x => typeof x === 'number' && Number.isFinite(x)) || data.credits_per_image <= 0) {
     throw new Error('The server did not return a valid model price and budget. Paid generation is disabled.');
   }
-  let text = data.images + ' images. Expected: ' + data.credits_expected + ' credits; up to ' +
+  let text = data.images + (data.images === 1 ? ' image. Expected: ' : ' images. Expected: ') + data.credits_expected + ' credits; up to ' +
     data.credits_worst_case + ' with background retries. Budget remaining: ' + budget.remaining +
     ' credits; per-batch limit: ' + budget.max_batch + '.';
   if (budget.allocated != null && budget.spent != null) {
     text += ' Used ' + budget.spent + ' of ' + budget.allocated + '.';
   }
-  const allowed = data.within_budget === true && data.within_batch_limit === true;
-  if (!allowed) text += ' This selection exceeds the budget or batch limit. Reduce templates or variants.';
+  const withinLimits = data.within_budget === true && data.within_batch_limit === true;
+  const modelAllowed = data.model_allowed === true;
+  const allowed = withinLimits && modelAllowed;
+  if (!modelAllowed) text += ' This model is not enabled for live use on this deployment. Choose an enabled model.';
+  if (!withinLimits) text += ' This selection exceeds the budget or batch limit. Reduce templates or variants.';
+  text += ' Price preview only; provider balance and safety checks run again before spending.';
   estimateEl.textContent = text;
   return allowed;
 }
@@ -187,9 +236,14 @@ async function boot() {
     if (mh?.available) {
       for (const [model, price] of Object.entries(mh.models || {})) {
         const option = document.createElement('option'); option.value = model;
-        option.textContent = model + ' (' + price + ' cr/image before retries)';
+        const enabled = Array.isArray(mh.live_models) && mh.live_models.includes(model);
+        option.disabled = !enabled;
+        option.textContent = model + ' (' + price + ' cr/image before retries)' + (enabled ? '' : ' · not enabled for live use');
         models.appendChild(option);
       }
+      const firstEnabled = [...models.options].find(option => !option.disabled);
+      models.value = firstEnabled?.value || '';
+      models.disabled = !firstEnabled;
     } else {
       const option = document.createElement('option'); option.value = 'seedream-v5-flash';
       option.textContent = 'unavailable'; models.appendChild(option);
@@ -203,7 +257,8 @@ async function boot() {
     setStatus('Could not load the studio: ' + error.message, 'err');
   }
   for (const id of ['provider', 'variants', 'mh_model', 'mh_route', 'scene_max_attempts']) $(id).addEventListener('change', updateEstimate);
-  $('file-products').addEventListener('fileschanged', updateEstimate);
+  for (const id of ['file-products', 'file-refs']) $(id).addEventListener('fileschanged', updateEstimate);
+  installTextFeedback();
   generateBtn.onclick = submit;
   $('logout').onclick = async () => {
     if (busy) { setStatus('Wait for the active batch before signing out.', 'err'); return; }
@@ -230,6 +285,7 @@ function snapshotForm(key) {
     product_description: 'desc', material: 'material', aspect: 'aspect', variants: 'variants', mh_model: 'mh_model', mh_route: 'mh_route' })) {
     form.append(field, $(id).value);
   }
+  if (matteReviewedFiles.length === products.files.length && matteReviewedFiles.every((f, i) => f === products.files[i])) form.append('knob_matte_reviewed', '1');
   form.append('knob_scene_max_attempts', $('scene_max_attempts').value || '1');
   for (const [name, value] of Object.entries(gallery.knobValuesFor(key))) form.append('knob_' + name, value);
   return form;
@@ -246,11 +302,12 @@ async function poll(jobId, label) {
       setStatus(label + ' · ' + Math.round((Date.now() - started) / 1000) + 's elapsed', 'working');
       continue;
     }
-    if (job.status === 'failed') throw new Error(job.error || 'Run failed.');
+    if (job.status === 'failed') { const error = new Error(job.error || 'Run failed.'); error.matteReview = job.matte_review; throw error; }
     if (job.status !== 'done') throw new Error('Unknown job status. No further templates were started.');
     const manifests = Array.isArray(job.runs) && job.runs.length
       ? job.runs.map(run => run.manifest || run) : [job.manifest];
-    if (!manifests.every(m => m && Array.isArray(m.variants) && m.run_dir)) {
+    if (!manifests.every(m => m && Array.isArray(m.variants) && m.variants.length && m.run_dir &&
+        m.variants.every(v => v && (v.error || (typeof v.image === 'string' && v.image))))) {
       throw new Error('Malformed run results. No automatic retry was sent.');
     }
     return manifests;
@@ -267,7 +324,7 @@ async function submit() {
   const sourceFiles = [...products.files];
   const forms = keys.map(snapshotForm);
   setBusy(true, 'Checking batch…');
-  let completed = 0;
+  let completed = 0, rendered = false;
   try {
     const quote = await updateEstimate();
     if (!quote?.allowed) throw new Error('Batch cost could not be approved. Check the estimate above. Nothing was generated.');
@@ -276,7 +333,6 @@ async function submit() {
       return;
     }
     renderSkeletons(resultsBox, Math.min(8, keys.length * Number($('variants').value)));
-    let rendered = false;
     for (let i = 0; i < keys.length; i++) {
       const name = gallery.nameFor(keys[i]);
       const label = 'Template ' + (i + 1) + ' of ' + keys.length + ': ' + name;
@@ -285,16 +341,53 @@ async function submit() {
       const job = await api('/api/generate', { method: 'POST', body: forms[i] });
       if (typeof job.job_id !== 'string' || !job.job_id) throw new Error('The server did not return a job ID. No automatic retry was sent.');
       const manifests = await poll(job.job_id, label);
-      if (!rendered) { resultsBox.replaceChildren(); rendered = true; }
+      if (!rendered) { clearResults(resultsBox); rendered = true; }
       for (const manifest of manifests) renderResults(manifest, resultsBox, sourceFiles, { append: true, title: name });
+      const failed = manifests.flatMap(manifest => manifest.variants).filter(variant => variant.error);
+      if (failed.length) {
+        throw new Error(name + ': ' + failed.length + ' variant(s) failed. Any available results are kept below. No remaining templates were started.');
+      }
       completed++;
     }
     setStatus('Batch done: ' + completed + ' of ' + keys.length + ' templates rendered. Eye review is still required.', 'ok');
   } catch (error) {
     // Never repeat an uncertain paid request, continue spending after a
     // failure, or erase completed groups when a later template fails.
-    if (!completed) resultsBox.replaceChildren();
+    if (!rendered) clearResults(resultsBox);
     renderError(resultsBox, error.message, { append: true, title: 'Batch stopped' });
+    if (error.matteReview) {
+      const panel = document.createElement('section');
+      const title = document.createElement('h3');
+      title.textContent = 'Cutout review: source left, mask right';
+      panel.append(title);
+      for (const name of error.matteReview.previews) {
+        const image = document.createElement('img');
+        image.src = '/api/runs/' + encodeURIComponent(error.matteReview.run_dir) + '/' + encodeURIComponent(name);
+        image.alt = 'Source and cutout mask. White is kept; black is removed.';
+        image.style.maxWidth = '100%';
+        panel.append(image);
+      }
+      const note = document.createElement('p');
+      note.textContent = 'This check cannot prove all products are present. Missing items will not be restored. No generation was started for this template.';
+      const accept = document.createElement('button');
+      accept.type = 'button';
+      accept.className = 'btn-primary';
+      accept.style.whiteSpace = 'normal';
+      accept.style.height = 'auto';
+      accept.style.padding = '12px 18px';
+      accept.textContent = 'I reviewed these masks and accept this cutout';
+      accept.onclick = () => {
+        if (sourceFiles.length !== products.files.length || !sourceFiles.every((f, i) => f === products.files[i])) {
+          accept.textContent = 'Sources changed. Generate a new review.';
+          return;
+        }
+        matteReviewedFiles = sourceFiles;
+        accept.disabled = true;
+        accept.textContent = 'Confirmed for these photos. Click Generate to continue with the current cost.';
+      };
+      panel.append(note, accept);
+      resultsBox.append(panel);
+    }
     setStatus('Batch stopped: ' + completed + ' of ' + keys.length + ' completed. ' + error.message, 'err');
   } finally {
     setBusy(false);

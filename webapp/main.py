@@ -321,7 +321,12 @@ async def presets(request: Request):
 @app.get("/api/providers")
 async def providers(request: Request):
     _require_auth(request)
-    return {"providers": provider_report()}
+    from renderello.studio import _live_model_allowlist
+    rows = provider_report()
+    for row in rows:
+        if row.get("name") == "magichour":
+            row["live_models"] = sorted(_live_model_allowlist())
+    return {"providers": rows}
 
 
 def _sniff(data: bytes) -> str | None:
@@ -357,7 +362,7 @@ async def estimate(request: Request, provider: str = "procedural",
     case images (variants x scene attempts), the budget state and whether
     the batch fits. Never spends anything."""
     _require_auth(request)
-    from renderello.studio import budget_status, scene_attempts_from
+    from renderello.studio import budget_status, scene_attempts_from, _live_model_allowlist
     from renderello.backends.magichour import MODEL_TABLE
     n_presets = max(1, min(len([p for p in presets.split(",") if p]),
                            MAX_PRESETS_PER_BATCH))
@@ -377,6 +382,9 @@ async def estimate(request: Request, provider: str = "procedural",
     worst = images * calls_per_image * (per_image or 0)
     return {"provider": provider, "model": mh_model, "route": mh_route,
             "credits_per_image": per_image, "images": images,
+            "model_allowed": mh_model in _live_model_allowlist(),
+            "live_checks_verified": False,
+            "estimate_scope": "Price, configured model allowlist and app budget only; provider balance, anchor and durable-ledger integrity are rechecked before spend, not verified by this quote.",
             "scene_max_attempts": attempts, "calls_per_image": calls_per_image,
             "credits_expected": images * (per_image or 0),
             "credits_worst_case": worst,
@@ -411,6 +419,10 @@ async def generate(request: Request,
         raise HTTPException(400, "1-8 files: at least one product photo")
     if mh_route not in ("scene", "whole", "hybrid"):
         raise HTTPException(400, f"unknown Magic Hour route {mh_route!r}")
+    # Browser multipart forms encode line breaks as CRLF. Count logical
+    # characters consistently with the textarea without truncating content.
+    instruction = instruction.replace("\r\n", "\n").replace("\r", "\n")
+    product_description = product_description.replace("\r\n", "\n").replace("\r", "\n")
     for val in (instruction, product_description, material, aspect, provider,
                 mh_model, mh_route):
         if len(val) > _MAX_TEXT_FIELD:
@@ -522,6 +534,12 @@ async def _generate_claimed(request, job_id, products, references, presets,
                                  "run_dir": run_dirs[0] if run_dirs else None,
                                  "run_dirs": list(run_dirs),
                                  "error": _job_error(e)}
+                from renderello.matte_integrity import MatteReviewRequired
+                if isinstance(e, MatteReviewRequired):
+                    _jobs[job_id]["matte_review"] = {
+                        "run_dir": e.review_run_dir,
+                        "previews": e.review_previews,
+                    }
         finally:
             shutil.rmtree(work, ignore_errors=True)
 
@@ -597,6 +615,7 @@ _SAFE_ERROR_PREFIXES = (
     "no product cutout", "scene-compose", "RENDERELLO_",
     "could not verify live account balance", "live balance",
     "text field too long", "select 1-", "1-8 files",
+    "matte review required",
 )
 
 

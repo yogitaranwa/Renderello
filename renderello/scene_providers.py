@@ -66,13 +66,13 @@ class ProceduralProvider(SceneProvider):
     """Deterministic procedural backdrop (gradient + texture + bokeh).
 
     Always available on CPU. Honest labeling: these are graphic backdrops,
-    not AI-photoreal scenes. The product itself remains pixel-exact.
+    not AI-photoreal scenes. Composition can resize the source product.
     """
     name = "procedural"
     label = "Procedural studio backdrop (CPU, free)"
     cost = "free"
     quality_note = ("Graphic backdrop, not an AI-photoreal scene; product "
-                    "pixels stay source-exact.")
+                    "RGB can change when resized; check the native pixel audit.")
 
     def available(self):
         return True, ""

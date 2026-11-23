@@ -35,6 +35,6 @@ def prepare_experimental_shadow_source(original):
     for old,new,reason in replacements:
         if text.count(old)!=1:raise ValueError('expected one exact patch target')
         text=text.replace(old,new,1);ledger.append(reason)
-    compile(text,'shadow_generation_v485.py','exec')
+    compile(text,'shadow-generation.py','exec')
     result=text.encode('utf-8')
     return result,dict(revision=PINNED_LIBCOM_REVISION,original_sha256=digest,experimental_sha256=hashlib.sha256(result).hexdigest(),changes=ledger,model_inference_tested=False,default_enabled=False)

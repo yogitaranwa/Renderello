@@ -1,5 +1,13 @@
+// Preview object URLs outlive removed DOM nodes unless explicitly revoked.
+const sourcePreviewUrls = new WeakMap();
+export function clearResults(resultsBox) {
+  for (const url of sourcePreviewUrls.get(resultsBox) || []) URL.revokeObjectURL(url);
+  sourcePreviewUrls.delete(resultsBox);
+  resultsBox.replaceChildren();
+}
+
 // Results: run summary, honesty lines, and a comparison gallery. Every
-// variant card can drag-compare the generated shot against the uploaded
+// variant card can show the generated shot beside the uploaded
 // source photo (client-side object URL; sources are not stored server-side).
 // QA labels stay verbatim: unscored variants say eye review is required and
 // publish-ready is no.
@@ -16,7 +24,7 @@ export function renderResults(manifest, resultsBox, sourceFiles = [], opts = {})
     }
     resultsBox.appendChild(host);
   } else {
-    resultsBox.innerHTML = '';
+    clearResults(resultsBox);
   }
 
   // Run summary strip
@@ -74,7 +82,20 @@ export function renderResults(manifest, resultsBox, sourceFiles = [], opts = {})
     host.appendChild(p);
   }
 
-  const srcUrl = sourceFiles.length ? URL.createObjectURL(sourceFiles[0]) : null;
+  // A group composite has no one-to-one mapping to its first input photo.
+  // Do not suggest that comparing only that photo checks every product.
+  const hasImage = manifest.variants.some(variant => !variant.error && variant.image);
+  const srcUrl = sourceFiles.length === 1 && hasImage ? URL.createObjectURL(sourceFiles[0]) : null;
+  if (srcUrl) {
+    if (!sourcePreviewUrls.has(resultsBox)) sourcePreviewUrls.set(resultsBox, new Set());
+    sourcePreviewUrls.get(resultsBox).add(srcUrl);
+  }
+  if (sourceFiles.length > 1) {
+    const notice = document.createElement('p');
+    notice.className = 'notice-line info';
+    notice.textContent = 'Multiple source photos: review every original above. A single-source comparison overlay is not available for this group.';
+    host.appendChild(notice);
+  }
 
   const grid = document.createElement('div');
   grid.className = 'variant-grid';
@@ -83,6 +104,7 @@ export function renderResults(manifest, resultsBox, sourceFiles = [], opts = {})
   for (const v of manifest.variants) {
     const card = document.createElement('div');
     card.className = 'vcard';
+    if (srcUrl) card.classList.add('vcard-comparison');
     if (v.error) {
       const p = document.createElement('p');
       p.className = 'vcard-fail';
@@ -141,6 +163,16 @@ export function renderResults(manifest, resultsBox, sourceFiles = [], opts = {})
       }
     }
 
+    // Per-variant warnings include scene intrusion after the call limit.
+    // Keep them visible on the card; manifest-only storage hides the reason
+    // a result still needs review. textContent keeps provider text inert.
+    for (const warning of v.warnings || []) {
+      const notice = document.createElement('p');
+      notice.className = 'notice-line warn variant-warning';
+      notice.textContent = String(warning);
+      body.appendChild(notice);
+    }
+
     const actions = document.createElement('div');
     actions.className = 'vcard-actions';
     const open = document.createElement('a');
@@ -163,59 +195,21 @@ export function renderResults(manifest, resultsBox, sourceFiles = [], opts = {})
   }
 }
 
-// Draggable source/generated comparison. The range input covers the frame so
-// the divider follows pointer and keyboard alike; the after-image is clipped
-// to the right of the divider.
+// Equal image aspect ratios do not establish aligned product placement.
+// Always show both complete frames. A default 50% wipe can hide the entire
+// generated product when the compositor moves it to the other side.
 function makeCompare(srcUrl, genUrl) {
   const wrap = document.createElement('div');
   wrap.className = 'compare';
-  // A wipe slider only makes sense when both frames share an aspect; for
-  // different aspects it letterboxes one image into a floating card and the
-  // two products never line up. Those pairs render side by side instead:
-  // both images fully visible, each in its own fitted panel.
+  makePair(wrap, srcUrl, genUrl, 1);
   srcImg_probe(srcUrl, genUrl, (srcAspect, genAspect) => {
-    if (Math.abs(srcAspect - genAspect) / Math.min(srcAspect, genAspect) > 0.03) {
-      makePair(wrap, srcUrl, genUrl, Math.min(srcAspect, genAspect));
-    }
+    wrap.style.aspectRatio = String(2 * Math.min(srcAspect, genAspect));
   });
-  wrap.innerHTML =
-    '<img class="cmp-src" alt="Source product photo">' +
-    '<div class="cmp-after"><img alt="Generated variant"></div>' +
-    '<span class="cmp-tag src">Source</span>' +
-    '<span class="cmp-tag gen">Generated</span>' +
-    '<div class="cmp-handle"></div>' +
-    '<input type="range" min="0" max="100" value="50" aria-label="Compare source and generated image">';
-  const [srcImg, after, genImg, handle, range] = [
-    wrap.querySelector('.cmp-src'), wrap.querySelector('.cmp-after'),
-    wrap.querySelector('.cmp-after img'), wrap.querySelector('.cmp-handle'),
-    wrap.querySelector('input'),
-  ];
-  srcImg.src = srcUrl;
-  genImg.src = genUrl;
-  // The frame matches the source photo's aspect so neither image is clipped
-  // or distorted when source and generated aspects differ. Skipped entirely
-  // if the aspect probe switched this card to side-by-side pair mode.
-  const fitFrame = () => {
-    if (wrap.classList.contains('pair')) return;
-    if (srcImg.naturalWidth > 0 && srcImg.naturalHeight > 0) {
-      wrap.style.aspectRatio = String(srcImg.naturalWidth) + ' / ' + String(srcImg.naturalHeight);
-    }
-  };
-  if (srcImg.complete) fitFrame();
-  srcImg.addEventListener('load', fitFrame);
-  const apply = () => {
-    if (wrap.classList.contains('pair')) return;
-    const pct = Number(range.value);
-    after.style.clipPath = 'inset(0 0 0 ' + pct + '%)';
-    handle.style.left = pct + '%';
-  };
-  range.addEventListener('input', apply);
-  apply();
   return wrap;
 }
 
 export function renderSkeletons(resultsBox, count) {
-  resultsBox.innerHTML = '';
+  clearResults(resultsBox);
   const grid = document.createElement('div');
   grid.className = 'variant-grid';
   for (let i = 0; i < Math.max(1, Math.min(count, 8)); i++) {
@@ -240,7 +234,7 @@ export function renderError(resultsBox, message, opts = {}) {
     }
     resultsBox.appendChild(host);
   } else {
-    resultsBox.innerHTML = '';
+    clearResults(resultsBox);
   }
   const p = document.createElement('p');
   p.className = 'notice-line fail';
@@ -260,14 +254,14 @@ function srcImg_probe(srcUrl, genUrl, cb) {
   ib.src = genUrl;
 }
 
-// Side-by-side fitted panels for source vs generated when their aspects
-// differ: both fully visible, no wipe, no letterboxed overlay.
+// Side-by-side fitted panels keep both complete frames visible.
+// Captions are outside the image area, never over the product.
 function makePair(wrap, srcUrl, genUrl, minAspect) {
   wrap.classList.add('pair');
   wrap.style.aspectRatio = String(2 * minAspect);
   wrap.innerHTML =
-    '<figure class="pair-cell"><img alt="Source product photo"><figcaption class="cmp-tag src">Source</figcaption></figure>' +
-    '<figure class="pair-cell"><img alt="Generated variant"><figcaption class="cmp-tag gen">Generated</figcaption></figure>';
+    '<figure class="pair-cell"><div class="pair-frame"><img alt="Source product photo"></div><figcaption class="cmp-tag src">Source</figcaption></figure>' +
+    '<figure class="pair-cell"><div class="pair-frame"><img alt="Generated variant"></div><figcaption class="cmp-tag gen">Generated</figcaption></figure>';
   const [srcImg, genImg] = wrap.querySelectorAll('img');
   srcImg.src = srcUrl;
   genImg.src = genUrl;

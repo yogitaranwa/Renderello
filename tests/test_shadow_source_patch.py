@@ -3,7 +3,7 @@ import hashlib
 import pytest
 from renderello.shadow_source_patch import prepare_experimental_shadow_source,PINNED_SHADOW_SHA256
 
-SOURCE=Path(__file__).resolve().parents[1]/'research/gps_shadow_v485/publisher_shadow_generation.py'
+SOURCE=Path(__file__).resolve().parents[1]/'research/gps-shadow/publisher_shadow_generation.py'
 
 def test_pinned_source_patch_preserves_original_and_compiles():
  b=SOURCE.read_bytes();out,d=prepare_experimental_shadow_source(b);assert SOURCE.read_bytes()==b;assert hashlib.sha256(b).hexdigest()==PINNED_SHADOW_SHA256;assert out!=b;compile(out,'experimental','exec');assert len(d['changes'])==4;assert not d['model_inference_tested'];assert not d['default_enabled'];assert b'base_mask_embeddings.clone()' in out;assert b'temp = pred_bbx[i,2].clone()' in out;assert b'torch.from_numpy(box_array)' in out

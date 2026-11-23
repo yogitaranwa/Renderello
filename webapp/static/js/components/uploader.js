@@ -6,6 +6,16 @@ export function makeUploader(dropId, inputId, thumbsId, max) {
   const input = document.getElementById(inputId);
   const thumbs = document.getElementById(thumbsId);
   let files = [];
+  const feedback = document.createElement('p');
+  feedback.className = 'upload-feedback notice-line warn';
+  feedback.setAttribute('role', 'status');
+  feedback.setAttribute('aria-live', 'polite');
+  feedback.hidden = true;
+  thumbs.after(feedback);
+  const notify = messages => {
+    feedback.textContent = messages.join(' ');
+    feedback.hidden = messages.length === 0;
+  };
 
   const render = () => {
     thumbs.querySelectorAll('img').forEach(img => URL.revokeObjectURL(img.src));
@@ -26,7 +36,8 @@ export function makeUploader(dropId, inputId, thumbsId, max) {
         e.stopPropagation();
         files.splice(i, 1);
         render();
-    input.dispatchEvent(new CustomEvent('fileschanged', { bubbles: true }));
+        notify([]);
+        input.dispatchEvent(new CustomEvent('fileschanged', { bubbles: true }));
       };
       cell.appendChild(img);
       cell.appendChild(rm);
@@ -45,9 +56,17 @@ export function makeUploader(dropId, inputId, thumbsId, max) {
 
   const add = (list) => {
     if (input.disabled) return;
+    const issues = [];
     for (const f of list) {
-      if (files.length >= max) break;
-      if (!/^image\//.test(f.type)) continue;
+      if (!['image/png', 'image/jpeg', 'image/webp'].includes(f.type)) {
+        issues.push(f.name + ': use PNG, JPEG or WebP.'); continue;
+      }
+      if (!f.size || f.size > 12 * 1024 * 1024) {
+        issues.push(f.name + ': choose a non-empty image up to 12 MB.'); continue;
+      }
+      if (files.length >= max) {
+        issues.push(f.name + ': maximum ' + max + ' photos; remove one first.'); continue;
+      }
       // Guard against double delivery of the same picker/drop event adding
       // one photo twice (duplicate files would generate duplicate variants).
       if (files.some(x => x.name === f.name && x.size === f.size &&
@@ -55,6 +74,7 @@ export function makeUploader(dropId, inputId, thumbsId, max) {
       files.push(f);
     }
     render();
+    notify(issues);
     input.dispatchEvent(new CustomEvent('fileschanged', { bubbles: true }));
   };
 
@@ -72,5 +92,5 @@ export function makeUploader(dropId, inputId, thumbsId, max) {
     add(e.dataTransfer.files);
   });
 
-  return { get files() { return files; }, clear() { files = []; render(); input.dispatchEvent(new CustomEvent('fileschanged', { bubbles: true })); } };
+  return { get files() { return files; }, clear() { files = []; render(); notify([]); input.dispatchEvent(new CustomEvent('fileschanged', { bubbles: true })); } };
 }

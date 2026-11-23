@@ -813,3 +813,11 @@ input[type="text"], select, textarea {
     margin-bottom: 24px;
   }
 }
+
+/* Review both complete images at a readable size. Labels must never cover
+   low-placed products inside the generated canvas. */
+.vcard-comparison { grid-column: 1 / -1; }
+.compare.pair .pair-cell { display: flex; flex-direction: column; }
+.compare.pair .pair-frame { position: relative; flex: 1; min-height: 0; }
+.compare.pair .cmp-tag { position: static; display: block; flex-shrink: 0;
+  text-align: center; border-radius: 0; padding: 6px 8px; background: #242435; }

@@ -49,7 +49,7 @@ def verify_lossless_container_lineage(original,derived):
     if rgb_a.shape!=rgb_b.shape or not np.array_equal(rgb_a,rgb_b):raise ValueError('Decoded native RGB changed')
     if color_a!=color_b:raise ValueError('Colour or EXIF interpretation metadata changed')
     ha,hb=(hashlib.sha256(v).hexdigest() for v in (a,b))
-    registry=Path(__file__).with_name('source_registry.json')
+    registry=Path(__file__).with_name('source-registry.json')
     records=json.loads(registry.read_text()) if registry.is_file() else []
     matches=[r for r in records if r.get('sha256')==ha]
     if len(matches)>1:raise ValueError('Ambiguous parent source registry')
